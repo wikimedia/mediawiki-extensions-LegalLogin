@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"log-name-legallogin": "Legal Login",
+	"log-description-legallogin": "This is a log of accepted Legal Login policies and answered questions.",
+	"legallogin": "LegalLogin",
+	"legallogin-desc": "This extension requires users to confirm after clicking an external link, before being sent to the external site",
+	"legallogin-policy-checkbox-label": "I have read and accept the $1",
+	"legallogin-policy-text-caption": "(Rev $1; $2)",
+	"legallogin-policy-full-page-view": "Click here to read in full-page view",
+	"legallogin-true-answer-label": "True",
+	"legallogin-false-answer-label": "False",
+	"legallogin-extra-fields-required-for-account-creation": "Legal Login extra fields required for account creation",
+	"legallogin-extra-fields-were-changed": "Legal Login fields were changed",
+	"legallogin-policy-must-be-read": "You must read the '$1' policy before accepting",
+	"legallogin-policy-must-be-accepted": "For requested operation you must accept the '$1' policy",
+	"legallogin-incorrect-answer-on-question": "Your answer on the question '$1' is incorrect",
+	"legallogin-logentry-policy": "$1 id: $2, required: $3, scrolled: $4, opened: $5, accepted: $6",
+	"legallogin-logentry-login": "$1 id: $2, opened: $3",
+	"legallogin-logentry-question": "$1 answer: $2",
+	"legallogin-complete-checkboxes": "Correctly complete check-boxes to continue",
+	"legallogin-submit": "Submit",
+	"legallogin-close": "Close",
+	"legallogin-yes": "Yes",
+	"legallogin-no": "No",
+	"legallogin-js-should-be-enabled": "Site requires JavaScript to be enabled",
+	"legallogin-policies-must-be-accepted": "You should accept Legal Login policies",
+	"legallogin-debug-acceptance": ";Acceptance;$1;$2;$3",
+	"legallogin-debug-login": ";Login;$1;$2;$3",
+	"logentry-legallogin-accept": "User $1 accepted {{PLURAL:$4|policy|policies}} $5 and answered {{PLURAL:$6|question|questions}} $7. User has logged in $8 {{PLURAL:$8|time|times}} since last acceptance, last login was $9. $10.",
+	"logentry-legallogin-login": "User $1 logged in $5 {{PLURAL:$5|time|times}} since last acceptance, at $6 acceptance was required: $7. $4. $8."
+}

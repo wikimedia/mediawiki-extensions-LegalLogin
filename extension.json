@@ -1,0 +1,110 @@
+{
+	"name": "LegalLogin",
+	"version": "1.0",
+	"author": [
+		"[https://www.mediawiki.org/wiki/User:Pastakhov Pavel Astakhov]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:LegalLogin",
+	"descriptionmsg": "legallogin-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"MessagesDirs": {
+		"LegalLogin": [
+			"i18n"
+		]
+	},
+	"LogTypes": [
+		"legallogin"
+	],
+	"LogRestrictions": {
+		"legallogin": "legallogin-view-log"
+	},
+	"SpecialPages": {
+		"LegalLogin": "SpecialLegalLogin"
+	},
+	"LogActionsHandlers": {
+		"legallogin/accept": "LegalLogin\\AcceptanceLogFormatter",
+		"legallogin/login": "LegalLogin\\LoginLogFormatter"
+	},
+	"GroupPermissions": {
+		"sysop": {
+			"legallogin-view-log": true
+		}
+	},
+	"Hooks": {
+		"ApiBeforeMain": "LegalLoginHooks::onApiBeforeMain",
+		"AuthChangeFormFields": "LegalLoginHooks::onAuthChangeFormFields",
+		"BeforePageDisplay": "LegalLoginHooks::onBeforePageDisplay",
+		"PageSaveComplete": "LegalLoginHooks::onPageSaveComplete",
+		"LoadExtensionSchemaUpdates": "LegalLoginHooks::onLoadExtensionSchemaUpdates"
+	},
+	"AutoloadClasses": {
+		"LegalLoginHooks": "src/LegalLoginHooks.php",
+		"LegalLogin\\AcceptanceLogFormatter": "src/AcceptanceLogFormatter.php",
+		"LegalLogin\\LoginLogFormatter": "src/LoginLogFormatter.php",
+		"LegalLogin\\ExtraFieldsAuthenticationRequest": "src/ExtraFieldsAuthenticationRequest.php",
+		"LegalLogin\\ExtraFieldsSecondaryAuthenticationProvider": "src/ExtraFieldsSecondaryAuthenticationProvider.php",
+		"LegalLogin\\PolicyField": "src/PolicyField.php",
+		"LegalLogin\\PolicyData": "src/PolicyData.php",
+		"LegalLogin\\PolicyLinks": "src/PolicyLinks.php",
+		"LegalLogin\\PolicyLinksAuthenticationRequest": "src/PolicyLinksAuthenticationRequest.php",
+		"LegalLogin\\HTMLPolicyTextField": "src/HTMLPolicyTextField.php",
+		"LegalLogin\\HTMLPolicyLinkField": "src/HTMLPolicyLinkField.php",
+		"LegalLogin\\HTMLPolicyQuestionField": "src/HTMLPolicyQuestionField.php",
+		"SpecialLegalLogin": "src/SpecialLegalLogin.php"
+	},
+	"AuthManagerAutoConfig": {
+		"secondaryauth": {
+			"LegalLoginExtraFieldsSecondaryAuthenticationProvider": {
+				"class": "LegalLogin\\ExtraFieldsSecondaryAuthenticationProvider",
+				"sort": 0
+			}
+		}
+	},
+	"ResourceModules": {
+		"ext.LegalLogin.policyField": {
+			"scripts": "policyField.js",
+			"styles": "policyField.less",
+			"messages": [
+				"legallogin-close"
+			]
+		},
+		"ext.LegalLogin.policyLinks": {
+			"scripts": "policyLinks.js",
+			"styles": "policyLinks.less",
+			"messages": [
+				"legallogin-close"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "LegalLogin/modules"
+	},
+	"config": {
+		"LegalLoginPolicies": {
+			"value": {},
+			"description": "The list of legal policies that will require acceptance during account creation and login. Only pages in NS_MEDIAWIKI namespaces allowed as correct values"
+		},
+		"LegalLoginQuestions": {
+			"value": {},
+			"description": "The questions that users will need to answer correctly before login.  Only pages in NS_MEDIAWIKI namespaces allowed as correct values"
+		},
+		"LegalLoginExpiration": {
+			"value": 604800,
+			"description": "Require acceptance of legal policies again after defined seconds"
+		},
+		"LegalLoginInterval": {
+			"value": 10,
+			"description": "Require acceptance of legal policies again after defined number of logins"
+		},
+		"LegalLoginLogActions": {
+			"value": true,
+			"description": "Save LegalLogin actions like acceptance of the policies to Special:Log"
+		}
+	},
+	"manifest_version": 2
+}
