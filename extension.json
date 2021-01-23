@@ -16,6 +16,9 @@
 			"i18n"
 		]
 	},
+	"ExtensionMessagesFiles": {
+		"LegalLoginAlias": "LegalLogin.alias.php"
+	},
 	"LogTypes": [
 		"legallogin"
 	],
