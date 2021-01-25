@@ -66,7 +66,7 @@ class AcceptanceLogFormatter extends LogFormatter {
 			$questionsText[] = $this->msg(
 				'legallogin-logentry-question',
 				Message::rawParam( $link ),
-				$q['answer'] ? $true : $false,
+				$q['answer'] ? $true : $false
 			)->text();
 		}
 		$params[6] = Message::rawParam( '<' . implode( '; ', $questionsText ) . '>' );
