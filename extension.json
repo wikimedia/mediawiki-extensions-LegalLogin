@@ -32,6 +32,9 @@
 		"legallogin/accept": "LegalLogin\\AcceptanceLogFormatter",
 		"legallogin/login": "LegalLogin\\LoginLogFormatter"
 	},
+	"AvailableRights": [
+		"legallogin-view-log"
+	],
 	"GroupPermissions": {
 		"sysop": {
 			"legallogin-view-log": true
