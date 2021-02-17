@@ -97,6 +97,13 @@ class LegalLoginHooks {
 	public static function onAuthChangeFormFields(
 		array $requests, array $fieldInfo, array &$formDescriptor, string $action
 	) {
+		// Do nothing in case if policies and questions are not defined
+		$policies = PolicyData::getConfigVariable( 'LegalLoginPolicies' );
+		$questions = PolicyData::getConfigVariable( 'LegalLoginQuestions' );
+		if ( !$policies && !$questions ) {
+			return;
+		}
+
 		if ( $action === AuthManager::ACTION_LOGIN ) {
 			$req = AuthenticationRequest::getRequestByClass( $requests, PolicyLinksAuthenticationRequest::class );
 			if ( $req ) {

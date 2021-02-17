@@ -26,17 +26,22 @@
 			var $element = $( this ),
 				id = $element.attr( 'data' ),
 				$textarea = $( '#' + id ),
-				text = $textarea.text(),
+				policyHtml = $textarea.html(),
 				manager = OO.ui.getWindowManager(),
-				messageWindow = manager.openWindow( 'message', $.extend( {
-					message: $( '<div>' ).text( text ).addClass( 'legallogin-policy-fullscreen-text' )
-				}, {
-					title: $element.parent().children( 'span' ).text(),
-					size: 'full',
-					actions: [
-						{ action: close, label: OO.ui.deferMsg( 'legallogin-close' ), flags: [ 'primary', 'progressive' ] }
-					]
-				} ) );
+				$message = $( '<div>' ).html( policyHtml ).addClass( 'legallogin-policy-fullscreen-text' ),
+				messageWindow;
+
+			mw.hook( 'wikipage.content' ).fire( $message );
+
+			messageWindow = manager.openWindow( 'message', $.extend( {
+				message: $message
+			}, {
+				title: $element.parent().children( 'span' ).text(),
+				size: 'full',
+				actions: [
+					{ action: close, label: OO.ui.deferMsg( 'legallogin-close' ), flags: [ 'primary', 'progressive' ] }
+				]
+			} ) );
 
 			messageWindow.opened.then( function () {
 				$( '#' + id + '-opened' ).val( true );
@@ -52,7 +57,7 @@
 			}
 		}
 
-		$( '.legal-login-field textarea' )
+		$( '.legal-login-field .legalPolicyText' )
 			.on( 'scroll', onPolicyTextareaScrolled )
 			.each( function () {
 				onPolicyTextareaScrolled.apply( this );

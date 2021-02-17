@@ -5,17 +5,22 @@
 		$( '.legallogin-fpv-link' ).on( 'click', function () {
 			var $element = $( this ),
 				id = $element.attr( 'data-id' ),
-				text = $element.attr( 'data-text' ),
+				policyHtml = $element.attr( 'data-html' ),
 				manager = OO.ui.getWindowManager(),
-				messageWindow = manager.openWindow( 'message', $.extend( {
-					message: $( '<div>' ).text( text ).addClass( 'legallogin-policy-fullscreen-text' )
-				}, {
-					title: $element.text(),
-					size: 'full',
-					actions: [
-						{ action: close, label: OO.ui.deferMsg( 'legallogin-close' ), flags: [ 'primary', 'progressive' ] }
-					]
-				} ) );
+				$message = $( '<div>' ).html( policyHtml ).addClass( 'legallogin-policy-fullscreen-text' ),
+				messageWindow;
+
+			mw.hook( 'wikipage.content' ).fire( $message );
+
+			messageWindow = manager.openWindow( 'message', $.extend( {
+				message: $message
+			}, {
+				title: $element.text(),
+				size: 'full',
+				actions: [
+					{ action: close, label: OO.ui.deferMsg( 'legallogin-close' ), flags: [ 'primary', 'progressive' ] }
+				]
+			} ) );
 
 			messageWindow.opened.then( function () {
 				$( '#' + id + '-opened' ).val( true );

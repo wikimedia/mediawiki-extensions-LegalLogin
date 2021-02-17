@@ -22,7 +22,7 @@ class HTMLPolicyLinkField extends HTMLFormField {
 			[
 				'class' => 'legallogin-fpv-link',
 				'data-id' => $this->mID,
-				'data-text' => $value['text'],
+				'data-html' => HTMLPolicyTextField::parse( $value['text'] ),
 			],
 			$value['caption'] . ' ' . $fpvText
 		);

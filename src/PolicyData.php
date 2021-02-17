@@ -524,8 +524,9 @@ class PolicyData {
 				$policyId = $legalLoginData["$fieldName-policyId"] ?? null;
 				$policyRevId = $legalLoginData["$fieldName-policyRevId"] ?? null;
 				$policyAccepted = $legalLoginData["$fieldName-checkbox"] ?? null;
-				if ( empty( $legalLoginData[$fieldName] ) ||
-					preg_replace( '/[\n\r]+/m', ' ', $legalLoginData[$fieldName] ) !==
+				$policyText = $legalLoginData["$fieldName-text"] ?? '';
+				if ( !$policyText ||
+					preg_replace( '/[\n\r]+/m', ' ', $policyText ) !==
 					preg_replace( '/[\n\r]+/m', ' ', $data['text'] ) ||
 					$policyId !== $data['policyId'] ||
 					$policyRevId !== $data['policyRevId']
@@ -580,7 +581,7 @@ class PolicyData {
 	 * @param string $name
 	 * @return mixed
 	 */
-	private static function getConfigVariable( string $name ) {
+	public static function getConfigVariable( string $name ) {
 		$config = MediaWikiServices::getInstance()->getMainConfig();
 		return $config->get( $name );
 	}
