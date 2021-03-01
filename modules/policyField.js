@@ -50,7 +50,7 @@
 		} );
 
 		function onPolicyTextareaScrolled() {
-			if ( Math.round( this.scrollHeight - this.scrollTop - this.clientHeight ) <= 0 ) {
+			if ( Math.round( this.scrollHeight - this.scrollTop - this.clientHeight ) <= 3 ) {
 				$( '#' + this.id + '-scrolled' ).val( true );
 				$( '#' + this.id + '-checkbox' ).prop( 'disabled', false );
 				$( this ).off( 'scroll', onPolicyTextareaScrolled );
