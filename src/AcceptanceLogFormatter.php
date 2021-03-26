@@ -29,45 +29,49 @@ class AcceptanceLogFormatter extends LogFormatter {
 		$questions = $params[4] ?? [];
 		$git = $params[5] ?? [];
 		$logged = $params[6] ?? [];
-		$params[3] = count( $policies );
+		$params[3] = $policies ? count( $policies ) : 0;
 		$yes = $this->msg( 'legallogin-yes' )->text();
 		$no = $this->msg( 'legallogin-no' )->text();
 		$policiesText = [];
-		foreach ( $policies as $p ) {
-			// "$1 id: $2, required: $3, scrolled: $4, opened: $5"
-			$title = Title::makeTitle( NS_MEDIAWIKI, $p['name'] );
-			$link = $this->myPageLink( $title, $title->getText(), [ 'oldid' => $p['revId'] ] );
-			if ( ( $p['accepted'] ?? null ) === null ) {
-				$accepted = 'n/a';
-			} elseif ( $p['accepted'] ) {
-				$accepted = $yes;
-			} else {
-				$accepted = $no;
+		if ( $policies ) {
+			foreach ( $policies as $p ) {
+				// "$1 id: $2, required: $3, scrolled: $4, opened: $5"
+				$title = Title::makeTitle( NS_MEDIAWIKI, $p['name'] );
+				$link = $this->myPageLink( $title, $title->getText(), [ 'oldid' => $p['revId'] ] );
+				if ( ( $p['accepted'] ?? null ) === null ) {
+					$accepted = 'n/a';
+				} elseif ( $p['accepted'] ) {
+					$accepted = $yes;
+				} else {
+					$accepted = $no;
+				}
+				$policiesText[] = $this->msg(
+					'legallogin-logentry-policy',
+					Message::rawParam( $link ),
+					$p['policyId'],
+					$p['required'] ? $yes : $no,
+					$p['scrolled'] ? $yes : $no,
+					$p['opened'] ? $yes : $no,
+					$accepted
+				)->text();
 			}
-			$policiesText[] = $this->msg(
-				'legallogin-logentry-policy',
-				Message::rawParam( $link ),
-				$p['policyId'],
-				$p['required'] ? $yes : $no,
-				$p['scrolled'] ? $yes : $no,
-				$p['opened'] ? $yes : $no,
-				$accepted
-			)->text();
 		}
 		$params[4] = Message::rawParam( '<' . implode( '; ', $policiesText ) . '>' );
-		$params[5] = count( $questions );
+		$params[5] = $questions ? count( $questions ) : 0;
 		$true = $this->msg( 'legallogin-true-answer-label' )->text();
 		$false = $this->msg( 'legallogin-false-answer-label' )->text();
 		$questionsText = [];
-		foreach ( $questions as $q ) {
-			// "$1 answer: $2"
-			$title = Title::makeTitle( NS_MEDIAWIKI, $q['name'] );
-			$link = $this->myPageLink( $title, $title->getText(), [ 'oldid' => $q['revId'] ] );
-			$questionsText[] = $this->msg(
-				'legallogin-logentry-question',
-				Message::rawParam( $link ),
-				$q['answer'] ? $true : $false
-			)->text();
+		if ( $questions ) {
+			foreach ( $questions as $q ) {
+				// "$1 answer: $2"
+				$title = Title::makeTitle( NS_MEDIAWIKI, $q['name'] );
+				$link = $this->myPageLink( $title, $title->getText(), [ 'oldid' => $q['revId'] ] );
+				$questionsText[] = $this->msg(
+					'legallogin-logentry-question',
+					Message::rawParam( $link ),
+					$q['answer'] ? $true : $false
+				)->text();
+			}
 		}
 		$params[6] = Message::rawParam( '<' . implode( '; ', $questionsText ) . '>' );
 
