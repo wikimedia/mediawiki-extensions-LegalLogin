@@ -17,6 +17,7 @@ class HTMLPolicyQuestionField extends HTMLRadioField {
 		$answer = $this->mParams['correctAnswer'];
 		$revField = new HTMLHiddenField( [
 			'name' => $this->mParams['name'] . '-revId',
+			'fieldname' => $this->mParams['name'] . '-revId',
 			'default' => $this->mParams['revId'],
 		] );
 		list( $name, $v, $params ) = $revField->getHiddenFieldData( $value );

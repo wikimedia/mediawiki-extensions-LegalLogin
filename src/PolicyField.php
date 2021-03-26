@@ -25,12 +25,14 @@ class PolicyField extends HTMLFormField {
 				$textAreaParams = [
 					'readonly' => true,
 					'name' => $policyFieldName,
+					'fieldname' => $policyFieldName,
 				];
 				$checkboxValue = false;
 				$checkboxParams = [
 					'label' => $data['checkboxLabel'],
 					'disabled' => $data['requireScrolling'],
 					'name' => $policyFieldName . '-checkbox',
+					'fieldname' => $policyFieldName . '-checkbox',
 				];
 				$pfElement = new HTMLPolicyTextField( $textAreaParams );
 				$name = $pfElement->mName;
@@ -52,6 +54,7 @@ class PolicyField extends HTMLFormField {
 					'label' => $data['text'],
 					'revId' => $data['questionRevId'],
 					'name' => self::getQuestionFieldName( $data['name'] ),
+					'fieldname' => self::getQuestionFieldName( $data['name'] ),
 					'help' => $data['help'] ?? null,
 					'options-messages' => [
 						'legallogin-true-answer-label' => 'true',
