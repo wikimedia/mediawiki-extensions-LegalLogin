@@ -9,7 +9,7 @@
 			questionCorrectAnswers = [],
 			questionCorrectAnswersSelector,
 			questionsAnswered = false,
-			$submitButton = $( 'button[type=submit]' ),
+			$submitButton = $( '#bodyContent button[type=submit]' ),
 			submitButtonDisabledText = $submitButton.text(),
 			submitButtonOriginalText = $( '#mw-input-wpLegalLoginSubmitButtonText' ).attr( 'value' );
 
