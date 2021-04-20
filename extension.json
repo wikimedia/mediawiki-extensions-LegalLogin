@@ -33,11 +33,13 @@
 		"legallogin/login": "LegalLogin\\LoginLogFormatter"
 	},
 	"AvailableRights": [
-		"legallogin-view-log"
+		"legallogin-view-log",
+		"legallogin-bypass"
 	],
 	"GroupPermissions": {
 		"sysop": {
-			"legallogin-view-log": true
+			"legallogin-view-log": true,
+			"legallogin-bypass": true
 		}
 	},
 	"Hooks": {

@@ -5,6 +5,7 @@ use LegalLogin\PolicyData;
 use LegalLogin\PolicyLinksAuthenticationRequest;
 use MediaWiki\Auth\AuthenticationRequest;
 use MediaWiki\Auth\AuthManager;
+use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\RevisionRecord;
 use MediaWiki\Storage\EditResult;
 use MediaWiki\User\UserIdentity;
@@ -41,6 +42,16 @@ class LegalLoginHooks {
 		$user = $out->getUser();
 		// TODO Probably anonymous users should not have access to read already
 		if ( $user->isRegistered() ) {
+
+			// Bypass the check for groups allowed to bypass
+			if ( MediaWikiServices::getInstance()
+				->getPermissionManager()
+				->userHasRight( $user, 'legallogin-bypass' )
+			) {
+				// Bypass
+				return;
+			}
+
 			if ( !PolicyData::hasUserAcceptedPolicies( $user ) ) {
 				$title = $out->getTitle();
 				if ( !$title || PolicyData::isWhitelisted( $title, $user ) ) {
@@ -71,15 +82,36 @@ class LegalLoginHooks {
 	 */
 	public static function onApiBeforeMain( ApiMain $main ) {
 		$user = $main->getUser();
-		if ( $main->getRequest()->getVal( 'action' ) === 'logout' ) {
-			// Allow logout in any case
+		if (
+			// Always allow logout action
+			$main->getRequest()->getVal( 'action' ) === 'logout'
+			// Always allow login action
+			|| $main->getRequest()->getVal( 'action' ) === 'login'
+			// Always allow token action
+			|| (
+				$main->getRequest()->getVal( 'action' ) === 'query'
+				&& $main->getRequest()->getVal( 'meta' ) === 'tokens'
+			)
+		) {
+			// Bypass
 			return;
 		}
 		// TODO Probably anonymous users should not have access to read already
 		if ( $user->isRegistered() ) {
+
+			// Bypass the check for groups allowed to bypass
+			if ( MediaWikiServices::getInstance()
+				->getPermissionManager()
+				->userHasRight( $user, 'legallogin-bypass' )
+			) {
+				// Bypass
+				return;
+			}
+
 			if ( !PolicyData::hasUserAcceptedPolicies( $user ) ) {
 				$title = $main->getTitle();
 				if ( !$title || PolicyData::isWhitelisted( $title, $user ) ) {
+					// Bypass
 					return;
 				}
 
