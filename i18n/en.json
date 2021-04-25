@@ -7,7 +7,7 @@
 	"legallogin": "LegalLogin",
 	"legallogin-desc": "This extension requires users to confirm after clicking an external link, before being sent to the external site",
 	"legallogin-policy-checkbox-label": "I have read and accept the $1",
-	"legallogin-policy-text-caption": "(Rev $1; $2)",
+	"legallogin-policy-text-caption": "(Revision $1; $2)",
 	"legallogin-policy-full-page-view": "Click here to read in full-page view",
 	"legallogin-true-answer-label": "True",
 	"legallogin-false-answer-label": "False",
