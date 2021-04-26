@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"JenyxGym"
+		]
+	},
+	"legallogin-true-answer-label": "Vrai",
+	"legallogin-false-answer-label": "Faux",
+	"legallogin-submit": "Soumettre",
+	"legallogin-close": "Fermer",
+	"legallogin-yes": "Oui",
+	"legallogin-no": "Non"
+}

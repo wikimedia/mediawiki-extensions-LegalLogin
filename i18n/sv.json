@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sabelöga"
+		]
+	},
+	"log-name-legallogin": "Laglig inloggning",
+	"log-description-legallogin": "Detta är en logg över godkända policyer över lagliga inloggningar och besvarade frågor.",
+	"legallogin": "Laglig inloggning",
+	"legallogin-desc": "Det här tillägget kräver att användare godkänner efter att ha klickat på en extern länk, för att skickas till den externa länken.",
+	"legallogin-policy-checkbox-label": "Jag har läst och godkänner $1",
+	"legallogin-policy-text-caption": "(sidversion $1; $2)",
+	"legallogin-policy-full-page-view": "Klicka här för att läsa i hel sida",
+	"legallogin-true-answer-label": "Sant",
+	"legallogin-false-answer-label": "Falskt",
+	"legallogin-extra-fields-required-for-account-creation": "Laglig inloggnings extra fält krävs för att skapa konton",
+	"legallogin-extra-fields-were-changed": "Lagliga inloggnings fält ändrades",
+	"legallogin-policy-must-be-read": "Du måste läsa \"$1\"-policyn innan du godkänner",
+	"legallogin-policy-must-be-accepted": "För den begärda åtgärden måste du godkänna \"$1\"-policyn",
+	"legallogin-incorrect-answer-on-question": "Ditt svar på frågan \"$1\" är fel",
+	"legallogin-logentry-policy": "$1-ID: $2, obligatoriska: $3, skrollas: $4, öppnade: $5, godkända: $6",
+	"legallogin-logentry-login": "$1-ID: $2, öppnad: $3",
+	"legallogin-logentry-question": "Svaret på $1: $2",
+	"legallogin-complete-checkboxes": "Fyll i rätt rutor för att fortsätta",
+	"legallogin-submit": "Skicka in",
+	"legallogin-close": "Stäng",
+	"legallogin-yes": "Ja",
+	"legallogin-no": "Nej",
+	"legallogin-js-should-be-enabled": "Webbplatsen kräver JavaScript för att aktiveras",
+	"legallogin-policies-must-be-accepted": "Du borde godkänna laglig inloggnings policyer",
+	"logentry-legallogin-accept": "Användaren $1 accepterade {{PLURAL:$4|policyn|policyerna}} $5 och besvarade $7 {{PLURAL:$6|frågan|frågorna}}. Användaren har loggat in $8 {{PLURAL:$8|gång|gånger}} sedan det senaste godkännandet, senaste inloggningen skedde $9. $10.",
+	"logentry-legallogin-login": "Användaren $1 loggade in $5 {{PLURAL:$5|gång|gånger}} sedan senaste godkännandet, vid $6 krävdes godkännande: $7. $4. $8.",
+	"right-legallogin-view-log": "Visa de godkända laglig inloggning-policyerna",
+	"action-legallogin-view-log": "visa de godkända laglig inloggning-policyerna"
+}
