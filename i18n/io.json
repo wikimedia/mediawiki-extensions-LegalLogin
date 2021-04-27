@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joao Xavier"
+		]
+	},
+	"legallogin-policy-checkbox-label": "Me lektis ed aceptis $1",
+	"legallogin-policy-text-caption": "(Revizo $1; $2)",
+	"legallogin-true-answer-label": "Vera",
+	"legallogin-false-answer-label": "Falsa",
+	"legallogin-logentry-question": "$1 respondo: $2",
+	"legallogin-submit": "Sendez"
+}

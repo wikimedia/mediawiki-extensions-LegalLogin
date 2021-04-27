@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"log-name-legallogin": "Правна најава",
+	"log-description-legallogin": "Ова е дневник на прифатени правила за Правна најава и одговорени прашања.",
+	"legallogin": "Правна најава",
+	"legallogin-desc": "Овој додаток бара од корисникот да потврди откако ќе стисне на надворешна врска, пред да биде испратен на надворешно мрежно место",
+	"legallogin-policy-checkbox-label": "Ги прочитав и прифаќам $1",
+	"legallogin-policy-text-caption": "(Преработка $1; $2)",
+	"legallogin-policy-full-page-view": "Стиснете тука за преглед на цела страница",
+	"legallogin-true-answer-label": "Точно",
+	"legallogin-false-answer-label": "Неточно",
+	"legallogin-extra-fields-required-for-account-creation": "Се бараат дополнителни полиња за да се создаде сметка",
+	"legallogin-extra-fields-were-changed": "Полињата се сменети",
+	"legallogin-policy-must-be-read": "Ќе мора да го прочитате правилото „$1“ пре да прифатите",
+	"legallogin-policy-must-be-accepted": "За побараната постапка ќе мора да го прифатите правилото „$1“",
+	"legallogin-incorrect-answer-on-question": "Погрешно одговоривте на прашањето „$1“",
+	"legallogin-logentry-policy": "Назнака на $1: $2, побарано: $3, прочитано: $4, отворено: $5, прифатено: $6",
+	"legallogin-logentry-login": "Назнака на $1: $2, отворено: $3",
+	"legallogin-logentry-question": "Одговор на $1: $2",
+	"legallogin-complete-checkboxes": "Правилно штиклирајте ги кутивчињата за да продолжите",
+	"legallogin-submit": "Поднеси",
+	"legallogin-close": "Затвори",
+	"legallogin-yes": "Да",
+	"legallogin-no": "Не",
+	"legallogin-js-should-be-enabled": "Ќе мора да овозможите JavaScript",
+	"legallogin-policies-must-be-accepted": "Ќе треба да ги прифатите правилата на Правна најава",
+	"logentry-legallogin-accept": "Корисникот $1 {{PLURAL:$4|го прифати правилото|ги прифати правилата}} $5 и одговори на {{PLURAL:$6|прашање|прашања}} $7. Истиот се има најавено {{PLURAL:$8|еднаш|$8 пати}} од последното прифаќање. Најскорешната најава беше на $9. $10.",
+	"logentry-legallogin-login": "Корисникот $1 се најави {{PLURAL:$5|еднаш|$5 пати}} од последното прифаќање, беше побарано прифаќање на $6: $7. $4. $8.",
+	"right-legallogin-view-log": "Преглед на прифатени правила за Правна најава",
+	"action-legallogin-view-log": "преглед на прифатени правила за Правна најава"
+}

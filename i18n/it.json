@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"legallogin-policy-text-caption": "(Versione $1; $2)",
+	"legallogin-true-answer-label": "Vero",
+	"legallogin-false-answer-label": "Falso",
+	"legallogin-logentry-question": "$1 risposta: $2",
+	"legallogin-submit": "Invia",
+	"legallogin-close": "Chiudi",
+	"legallogin-yes": "Sì",
+	"legallogin-no": "No"
+}

@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Robby"
+		]
 	},
 	"log-name-legallogin": "Name of log that appears on [[Special:Log]].",
 	"log-description-legallogin": "Display description for log name for changes in LegalLogin in Special:Log.",
@@ -10,7 +12,7 @@
 	"legallogin-policy-text-caption": "Part of policy name caption.\n\nParameters:\n* $1 - the policy revision number\n* $2 - the policy revision date",
 	"legallogin-policy-full-page-view": "Text of link to show the policy in full screen",
 	"legallogin-true-answer-label": "Text of label for answer on LegalLogin question as True",
-	"legallogin-false-answer-label": "Text of label for answer on LegalLogin question as False",
+	"legallogin-false-answer-label": "Text of label for answer on LegalLogin question as False\n{{identical|False}}",
 	"legallogin-extra-fields-required-for-account-creation": "An error message shown when it creates account without LegalLogin fields data",
 	"legallogin-extra-fields-were-changed": "An error message shown when LegalLogin fields were changed while user filled out the login form",
 	"legallogin-policy-must-be-read": "An error message shown when user accepted a policy without reading one but reading one is required\n\nParameters:\n* $1 - caption of the police",
