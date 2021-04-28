@@ -4,5 +4,11 @@
 			"Robby"
 		]
 	},
-	"legallogin-false-answer-label": "Falsch"
+	"legallogin-true-answer-label": "Richteg",
+	"legallogin-false-answer-label": "Falsch",
+	"legallogin-incorrect-answer-on-question": "Är Äntwert op d'Fro '$1' ass net korrekt",
+	"legallogin-submit": "Späicheren",
+	"legallogin-yes": "Jo",
+	"legallogin-no": "Neen",
+	"legallogin-js-should-be-enabled": "Fir de Site muss JavaScript aktivéiert sinn"
 }

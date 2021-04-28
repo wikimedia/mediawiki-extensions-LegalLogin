@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joseph"
+		]
+	},
+	"log-name-legallogin": "Yasal Giriş",
+	"log-description-legallogin": "Bu, kabul edilmiş Yasal Giriş ilkelerinin ve cevaplanan soruların günlüğüdür.",
+	"legallogin": "YasalGiriş",
+	"legallogin-desc": "Bu uzantı, kullanıcıların bir harici bağlantıya tıkladıklarında siteye gitmeden önce doğrulamasını gerektirir",
+	"legallogin-policy-checkbox-label": "$1 ilkesini okudum ve kabul ettim",
+	"legallogin-policy-text-caption": "(Sürüm $1; $2)",
+	"legallogin-policy-full-page-view": "Tam-sayfa görünümünde okumak için buraya tıklayın",
+	"legallogin-true-answer-label": "Doğru",
+	"legallogin-false-answer-label": "Yanlış",
+	"legallogin-extra-fields-required-for-account-creation": "Hesap oluşturmak için Yasal Giriş ek alanları gerekli",
+	"legallogin-extra-fields-were-changed": "Yasal Giriş alanları değişti",
+	"legallogin-policy-must-be-read": "Kabul etmeden önce '$1' ilkesini okumalısınız",
+	"legallogin-policy-must-be-accepted": "İstenen işlem için '$1' ilkesini kabul etmelisiniz",
+	"legallogin-incorrect-answer-on-question": "'$1' sorusuna verdiğiniz cevap yanlış",
+	"legallogin-logentry-policy": "$1 kimlik: $2, gerekli: $3, kaydırıldı: $4, açıldı: $5, kabul edildi: $6",
+	"legallogin-logentry-login": "$1 kimlik: $2, açıldı: $3",
+	"legallogin-logentry-question": "$1 cevap: $2",
+	"legallogin-complete-checkboxes": "Devam etmek için kutucukları doğru olarak tamamlayın",
+	"legallogin-submit": "Gönder",
+	"legallogin-close": "Kapat",
+	"legallogin-yes": "Evet",
+	"legallogin-no": "Hayır",
+	"legallogin-js-should-be-enabled": "Site JavaScript'in etkinleştirilmesini gerektiriyor",
+	"legallogin-policies-must-be-accepted": "Yasal Giriş ilkelerini kabul etmelisiniz",
+	"logentry-legallogin-accept": "$1 kullanıcısı $5 {{PLURAL:$4|ilkesini|ilkelerini}} kabul etti ve $7 {{PLURAL:$6|sorusunu|sorularını}} cevapladı. Kullanıcı son kabulden sonra $8 kere giriş yaptı, son giriş $9. $10.",
+	"logentry-legallogin-login": "$1 kullanıcısı son kabulden sonra $5 {{PLURAL:$5|kez|kez}} giriş yaptı, $6 tarihinde kabul edilmesi gerekti: $7. $4. $8.",
+	"right-legallogin-view-log": "Kabul edilmiş Yasal Giriş ilkelerini gör",
+	"action-legallogin-view-log": "kabul edilmiş Yasal Giriş ilkelerini görmeye"
+}

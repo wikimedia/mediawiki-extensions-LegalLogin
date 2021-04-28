@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardoaddad"
+		]
+	},
+	"log-name-legallogin": "Entrada legal",
+	"legallogin": "LegalLogin",
+	"legallogin-desc": "Esta extensão exige que os usuários confirmem depois de clicar em um link externo, antes de ser enviada para o site externo",
+	"legallogin-policy-checkbox-label": "Eu li e aceito o $1",
+	"legallogin-policy-text-caption": "(Revisão $1; $2)",
+	"legallogin-policy-full-page-view": "Clique aqui para ler em exibição de página inteira",
+	"legallogin-true-answer-label": "Verdadeiro",
+	"legallogin-policy-must-be-read": "Você deve ler a política '$1' antes de aceitar",
+	"legallogin-policy-must-be-accepted": "Para a operação solicitada, você deve aceitar a política '$1'",
+	"legallogin-incorrect-answer-on-question": "Sua resposta para a pergunta '$1' está incorreta",
+	"legallogin-complete-checkboxes": "Preencha corretamente as caixas de seleção para continuar",
+	"legallogin-submit": "Enviar",
+	"legallogin-close": "Fechar",
+	"legallogin-yes": "Sim",
+	"legallogin-no": "Não",
+	"legallogin-js-should-be-enabled": "O site requer que o JavaScript esteja ativado",
+	"legallogin-policies-must-be-accepted": "Você deve aceitar as políticas de entrada legal",
+	"logentry-legallogin-accept": "Usuário $1 aceitou {{PLURAL:$4|política|políticas}} $5 e respondeu {{PLURAL:$6|pergunta|perguntas}} $7. O usuário entrou $8 {{PLURAL:$8|veze|vezes}} desde a última aceitação, a última entrada foi $9. $10.",
+	"logentry-legallogin-login": "Usuário $1 entrou em $5 {{PLURAL:$5|veze|vezes}} desde a última aceitação, $6, a aceitação foi exigida: $7. $4. $8.",
+	"right-legallogin-view-log": "Veja as políticas aceitas de entradas legal"
+}
