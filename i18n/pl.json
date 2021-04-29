@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rail"
+		]
+	},
+	"legallogin-true-answer-label": "Prawda",
+	"legallogin-false-answer-label": "Fałsz",
+	"legallogin-logentry-question": "Odpowiedź na $1: $2",
+	"legallogin-submit": "Prześlij",
+	"legallogin-close": "Zamknij",
+	"legallogin-yes": "Tak",
+	"legallogin-no": "Nie",
+	"legallogin-js-should-be-enabled": "Witryna wymaga włączonej obsługi JavaScriptu"
+}

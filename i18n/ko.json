@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"legallogin-policy-checkbox-label": "저는 $1을(를) 읽었으며 동의합니다",
+	"legallogin-policy-must-be-read": "수락하기 전에 '$1' 정책을 읽어야 합니다",
+	"legallogin-submit": "제출",
+	"legallogin-close": "닫기",
+	"legallogin-yes": "예",
+	"legallogin-no": "아니오"
+}
