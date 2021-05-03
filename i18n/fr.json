@@ -9,7 +9,7 @@
 	"log-description-legallogin": "Ceci est un journal des politiques de connexion légale et des questions avec leurs réponses.",
 	"legallogin": "LegalLogin",
 	"legallogin-desc": "Cette extension nécessite que les utilisateurs confirment ultérieurement en cliquant sur un lien externe, avant d’être envoyé vers le site externe",
-	"legallogin-policy-checkbox-label": "J’ai lu et accepté le $1",
+	"legallogin-policy-checkbox-label": "J’ai lu et j'accepte le $1",
 	"legallogin-policy-text-caption": "(Révision $1 ; $2)",
 	"legallogin-policy-full-page-view": "Cliquer ici pour lire en pleine page",
 	"legallogin-true-answer-label": "Vrai",

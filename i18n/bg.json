@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kareyac"
+		]
+	},
+	"legallogin-true-answer-label": "Вярно",
+	"legallogin-close": "Затваряне",
+	"legallogin-yes": "Да",
+	"legallogin-no": "Не"
+}

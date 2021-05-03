@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Neriah"
+		]
+	},
+	"legallogin-true-answer-label": "נכון",
+	"legallogin-false-answer-label": "שגוי",
+	"legallogin-yes": "כן",
+	"legallogin-no": "לא"
+}
