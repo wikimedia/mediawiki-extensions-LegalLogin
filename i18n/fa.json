@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mohammad ebz"
+		]
+	},
+	"legallogin-policy-checkbox-label": "من $1 را خوانده و پذیرفته‌ام",
+	"legallogin-true-answer-label": "درست",
+	"legallogin-false-answer-label": "غلط",
+	"legallogin-submit": "ارسال",
+	"legallogin-close": "بستن",
+	"legallogin-yes": "بله",
+	"legallogin-no": "خیر"
+}
