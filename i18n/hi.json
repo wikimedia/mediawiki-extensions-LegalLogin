@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abijeet Patro"
+		]
+	},
+	"legallogin-true-answer-label": "सही",
+	"legallogin-false-answer-label": "गलत",
+	"legallogin-close": "बंद करें",
+	"legallogin-yes": "हाँ",
+	"legallogin-no": "नहीं"
+}
