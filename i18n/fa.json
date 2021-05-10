@@ -5,12 +5,14 @@
 			"Mohammad ebz"
 		]
 	},
+	"log-name-legallogin": "ورود قانونی",
 	"legallogin-policy-checkbox-label": "من $1 را خوانده و پذیرفته‌ام",
 	"legallogin-policy-text-caption": "(نسخهٔ $1؛ $2)",
 	"legallogin-policy-full-page-view": "برای مطالعه در حالت تمام‌صفحه کلیک کنید",
 	"legallogin-true-answer-label": "درست",
 	"legallogin-false-answer-label": "غلط",
 	"legallogin-policy-must-be-accepted": "برای عملیات درخواست‌شده باید موافقت خود با سیاست «$1» را اعلام کنید",
+	"legallogin-logentry-login": "شناسهٔ $1: $2، بازشده در: $3",
 	"legallogin-logentry-question": "$1 پاسخ: $2",
 	"legallogin-submit": "ارسال",
 	"legallogin-close": "بستن",
