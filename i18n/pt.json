@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Emma Franzen"
+		]
+	},
+	"log-name-legallogin": "Login Legal",
+	"log-description-legallogin": "Este é um registro das políticas aceitas de login legal e das perguntas respondidas.",
+	"legallogin": "LegalLogin",
+	"legallogin-desc": "Esta extensão exige que os usuários confirmem depois de clicar em um link externo, antes de ser enviada para o site externo",
+	"legallogin-policy-checkbox-label": "Eu li e aceito o $1",
+	"legallogin-policy-text-caption": "(Revisão $1; $2)",
+	"legallogin-policy-full-page-view": "Clique aqui para ler em exibição de página inteira",
+	"legallogin-true-answer-label": "Verdadeiro",
+	"legallogin-false-answer-label": "Falsa\nFalso",
+	"legallogin-extra-fields-required-for-account-creation": "Campos extras de login legal necessários para a criação da conta",
+	"legallogin-extra-fields-were-changed": "Os campos de login legais foram alterados",
+	"legallogin-policy-must-be-read": "Você deve ler a política '$1' antes de aceitar",
+	"legallogin-policy-must-be-accepted": "Para a operação solicitada, você deve aceitar a política '$1'",
+	"legallogin-incorrect-answer-on-question": "Sua resposta para a pergunta '$1' está incorreta",
+	"legallogin-logentry-policy": "$1 id: $2, obrigatório: $3, rolado: $4, aberto: $5, aceito: $6",
+	"legallogin-logentry-login": "$1 id: $2, aberto: $3",
+	"legallogin-logentry-question": "$1 resposta: $2",
+	"legallogin-complete-checkboxes": "Preencha corretamente as caixas de seleção para continuar",
+	"legallogin-submit": "Enviar",
+	"legallogin-close": "Fechar",
+	"legallogin-yes": "sim",
+	"legallogin-no": "Não",
+	"legallogin-js-should-be-enabled": "O site requer que o JavaScript esteja ativado",
+	"legallogin-policies-must-be-accepted": "Você deve aceitar as políticas de login legal",
+	"logentry-legallogin-accept": "O usuário $1 aceitou {{PLURAL: $4 | política | políticas}} $5 e respondeu {{PLURAL: $6 | pergunta | perguntas}} $7. O usuário fez login $8 {{PLURAL: $8 | tempo | vezes}} desde a última aceitação, o último login foi $9. $10.",
+	"logentry-legallogin-login": "O usuário $1 logou $ 5 {{PLURAL: $5 | tempo | vezes}} desde a última aceitação, a $6 a aceitação foi necessária: $7. $4. $8.",
+	"right-legallogin-view-log": "Veja as políticas de login legais aceitas",
+	"action-legallogin-view-log": "veja as políticas aceitas de login legal"
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Narazeni"
+		]
+	},
+	"legallogin-policy-checkbox-label": "მა წებკითხი დო ალობა მებჩი $1-ს",
+	"legallogin-true-answer-label": "ნანდული",
+	"legallogin-false-answer-label": "ტყურა",
+	"legallogin-incorrect-answer-on-question": "თქვანი გამა შეკითხირშო $1 ჩილათირი რე",
+	"legallogin-logentry-question": "$1-შ გამა: $2",
+	"legallogin-submit": "მეღება",
+	"legallogin-close": "კილუა",
+	"legallogin-yes": "ქო",
+	"legallogin-no": "ვარი"
+}
