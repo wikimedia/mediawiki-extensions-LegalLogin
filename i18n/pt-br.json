@@ -5,15 +5,22 @@
 		]
 	},
 	"log-name-legallogin": "Entrada legal",
+	"log-description-legallogin": "Este é um registro das políticas aceitas de entrada legal e das perguntas respondidas.",
 	"legallogin": "LegalLogin",
 	"legallogin-desc": "Esta extensão exige que os usuários confirmem depois de clicar em um link externo, antes de ser enviada para o site externo",
 	"legallogin-policy-checkbox-label": "Eu li e aceito o $1",
 	"legallogin-policy-text-caption": "(Revisão $1; $2)",
 	"legallogin-policy-full-page-view": "Clique aqui para ler em exibição de página inteira",
 	"legallogin-true-answer-label": "Verdadeiro",
+	"legallogin-false-answer-label": "Falso",
+	"legallogin-extra-fields-required-for-account-creation": "Campos extras de entrada legal necessárias para a criação da conta",
+	"legallogin-extra-fields-were-changed": "Os campos de entrada legais foram alterados",
 	"legallogin-policy-must-be-read": "Você deve ler a política '$1' antes de aceitar",
 	"legallogin-policy-must-be-accepted": "Para a operação solicitada, você deve aceitar a política '$1'",
 	"legallogin-incorrect-answer-on-question": "Sua resposta para a pergunta '$1' está incorreta",
+	"legallogin-logentry-policy": "$1 id: $2, obrigatório: $3, rolado: $4, aberto: $5, aceito: $6",
+	"legallogin-logentry-login": "$1 id: $2, aberto: $3",
+	"legallogin-logentry-question": "$1 resposta: $2",
 	"legallogin-complete-checkboxes": "Preencha corretamente as caixas de seleção para continuar",
 	"legallogin-submit": "Enviar",
 	"legallogin-close": "Fechar",
@@ -23,5 +30,6 @@
 	"legallogin-policies-must-be-accepted": "Você deve aceitar as políticas de entrada legal",
 	"logentry-legallogin-accept": "Usuário $1 aceitou {{PLURAL:$4|política|políticas}} $5 e respondeu {{PLURAL:$6|pergunta|perguntas}} $7. O usuário entrou $8 {{PLURAL:$8|veze|vezes}} desde a última aceitação, a última entrada foi $9. $10.",
 	"logentry-legallogin-login": "Usuário $1 entrou em $5 {{PLURAL:$5|veze|vezes}} desde a última aceitação, $6, a aceitação foi exigida: $7. $4. $8.",
-	"right-legallogin-view-log": "Veja as políticas aceitas de entradas legal"
+	"right-legallogin-view-log": "Veja as políticas aceitas de entradas legal",
+	"action-legallogin-view-log": "veja as políticas aceitas de entrada legal"
 }
