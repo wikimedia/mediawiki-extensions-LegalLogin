@@ -26,7 +26,7 @@ class PolicyLinksAuthenticationRequest extends AuthenticationRequest {
 	}
 
 	/**
-	 * @inheritDoc
+	 * @return array[]
 	 */
 	public function getFieldInfo() {
 		return [

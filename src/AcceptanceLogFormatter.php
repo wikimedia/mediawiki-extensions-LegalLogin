@@ -86,6 +86,8 @@ class AcceptanceLogFormatter extends LogFormatter {
 			$params[8] = '<unknown>';
 		}
 
+		// @phan-suppress-next-next-line SecurityCheck-DoubleEscaped
+		// Calling method \Html::element() in getMessageParameters that outputs using tainted argument #2.
 		$gitLink = Html::element( 'a', [ 'href' => $git['url'] ?? '', 'title' => $git['sha1'] ?? '' ], 'git' );
 		$params[9] = Message::rawParam( $gitLink );
 		return $params;

@@ -68,7 +68,7 @@ class LegalLoginHooks {
 				$url = SpecialPage::getTitleFor( 'LegalLogin' )->getFullURL( $query );
 				$out->redirect( $url );
 				$out->clearHTML();
-				$out->addHTML( wfMessage( 'legallogin-policies-must-be-accepted' )->text() );
+				$out->addHTML( wfMessage( 'legallogin-policies-must-be-accepted' )->escaped() );
 				$out->output();
 			}
 		}
@@ -155,6 +155,8 @@ class LegalLoginHooks {
 		}
 
 		$formDescriptor['createaccount']['disabled'] = true;
+		// @phan-suppress-next-next-line PhanTypeInvalidDimOffset
+		// Invalid offset "default" of $formDescriptor['createaccount'] of array type array{disabled:true}
 		$submitButtonText = $formDescriptor['createaccount']['default'];
 		$formDescriptor['createaccount']['default'] = wfMessage( 'legallogin-complete-checkboxes' )->text();
 		$formDescriptor['LegalLoginField'] = $fieldInfo['LegalLoginField'];
@@ -179,7 +181,7 @@ class LegalLoginHooks {
 		RevisionRecord $revisionRecord, EditResult $editResult
 	) {
 		$title = $wikiPage->getTitle();
-		if ( $title && $title->getNamespace() === NS_MEDIAWIKI ) {
+		if ( $title->getNamespace() === NS_MEDIAWIKI ) {
 			PolicyData::resetCurrentPoliciesCache();
 		}
 	}

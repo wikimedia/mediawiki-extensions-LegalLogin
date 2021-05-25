@@ -56,13 +56,13 @@ class PolicyData {
 	 * @return bool
 	 */
 	public static function checkAllPoliciesWereAccepted( array $policies, array $accepted ): bool {
-		$expiration = self::getConfigVariable( 'LegalLoginExpiration' );
-		$now = MWTimestamp::now( TS_UNIX );
+		$expiration = (int)self::getConfigVariable( 'LegalLoginExpiration' );
+		$now = (int)MWTimestamp::now( TS_UNIX );
 		foreach ( $policies as $name => $revId ) {
 			$a = $accepted[$name] ?? null;
 			if ( !$a ||
 				$a[0] !== $revId ||
-				$now - MWTimestamp::convert( TS_UNIX, $a[1] ) >= $expiration
+				$now - (int)MWTimestamp::convert( TS_UNIX, $a[1] ) >= $expiration
 			) {
 				return false;
 			}
@@ -631,6 +631,7 @@ class PolicyData {
 		}
 
 		// Insert logentry
+		$param = [];
 		$param['4::policies'] = $policies;
 		$param['5::count'] = $loggedCount;
 		$param['6::timestamp'] = $timestamp;
