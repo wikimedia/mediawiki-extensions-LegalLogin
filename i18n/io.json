@@ -8,6 +8,7 @@
 	"legallogin-policy-text-caption": "(Revizo $1; $2)",
 	"legallogin-true-answer-label": "Vera",
 	"legallogin-false-answer-label": "Falsa",
+	"legallogin-extra-fields-required-for-account-creation": "Bezonesas plenigar extra feldi por krear konto",
 	"legallogin-logentry-question": "$1 respondo: $2",
 	"legallogin-submit": "Sendez"
 }
