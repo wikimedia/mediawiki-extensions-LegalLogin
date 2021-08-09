@@ -28,6 +28,8 @@
 	"legallogin-no": "Ні",
 	"legallogin-js-should-be-enabled": "Для ввімкнення сайту потрібен JavaScript",
 	"legallogin-policies-must-be-accepted": "Ви повинні прийняти політику Legal Login",
+	"legallogin-debug-acceptance": ";Приймання;$1;$2;$3",
+	"legallogin-debug-login": ";Увійти;$1;$2;$3",
 	"logentry-legallogin-accept": "Користувач $1 прийняв {{PLURAL:$4|політику|політики}} $5 і відповів на {{PLURAL:$6|питання|питань}} $7. Користувач увійшов у систему $8 {{PLURAL:$8|раз|разів}} з моменту останнього прийняття, останній вхід був $9. $10.",
 	"logentry-legallogin-login": "Користувач $1 входив у систему $5 {{PLURAL:$5|раз|разів}} з моменту останнього прийняття, при цьому потрібно було прийняти $6:  $7. $4. $8.",
 	"right-legallogin-view-log": "Перегляньте прийняті правила Legal Login",
