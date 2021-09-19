@@ -165,7 +165,7 @@ class PolicyData {
 	public static function saveAcceptedPolicies( User $user, array $param ) {
 		// Save accepted policies to database
 		$userId = $user->getId();
-		$db = wfGetDB( DB_MASTER );
+		$db = wfGetDB( DB_PRIMARY );
 		$index = [ 'lla_user' => $userId ];
 		$set = [ 'lla_timestamp' => wfTimestampNow() ];
 		$accepted = [];
@@ -495,7 +495,7 @@ class PolicyData {
 	 * @return int
 	 */
 	private static function getPolicyId( int $pageId ) {
-		$db = wfGetDB( DB_MASTER );
+		$db = wfGetDB( DB_PRIMARY );
 		return $db->selectRowCount( 'revision', '*', [ 'rev_page' => $pageId ], __METHOD__ ) - 1;
 	}
 
@@ -594,7 +594,7 @@ class PolicyData {
 	 */
 	public static function onUserLogin( User $user, array $policies ) {
 		$userId = $user->getId();
-		$db = wfGetDB( DB_MASTER );
+		$db = wfGetDB( DB_PRIMARY );
 		$loggedCount = (int)$db->selectField(
 			'legallogin_logged',
 			'lll_count',
