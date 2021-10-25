@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DreZhsh",
 			"Gomoko",
 			"JenyxGym"
 		]
@@ -32,5 +33,7 @@
 	"logentry-legallogin-accept": "L’utilisateur $1 a accepté {{PLURAL:$4|la politique|les politiques}} $5 et a répondu {{PLURAL:$6|à une question|aux questions}} $7. L’utilisateur s’est connecté $8 {{PLURAL:$8|fois}} depuis la dernière acceptation, sa dernière connexion à $9. $10.",
 	"logentry-legallogin-login": "L’utilisateur $1 s’est connecté $5 {{PLURAL:$5|fois}} depuis la dernière acceptation, à $6 l’acceptation était nécessaire : $7. $4. $8.",
 	"right-legallogin-view-log": "Afficher les politiques de Connexion légale acceptées",
-	"action-legallogin-view-log": "afficher les politiques de Connexion légale acceptées"
+	"action-legallogin-view-log": "afficher les politiques de Connexion légale acceptées",
+	"right-legallogin-bypass": "Contournement de la vérification des groupes autorisés à contourner",
+	"action-legallogin-bypass": "contourner la vérification pour les groupes autorisés à contourner"
 }

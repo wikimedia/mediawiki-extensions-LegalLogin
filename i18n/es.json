@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Avengium"
+		]
+	},
+	"right-legallogin-bypass": "Omitir la verificación, para grupos a los que se les permite omitir",
+	"action-legallogin-bypass": "Omitir la verificación, para grupos a los que se les permite omitir"
+}
