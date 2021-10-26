@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"MrFraggle",
 			"Umlaut",
 			"Zabe"
 		]
@@ -11,5 +12,7 @@
 	"legallogin-close": "Schließen",
 	"legallogin-yes": "Ja",
 	"legallogin-no": "Nein",
-	"legallogin-js-should-be-enabled": "Für diese Seite muss JavaScript aktiviert sein"
+	"legallogin-js-should-be-enabled": "Für diese Seite muss JavaScript aktiviert sein",
+	"right-legallogin-bypass": "Umgehe die Prüfung der Gruppen, welche erlaubt sind zu umgehen",
+	"action-legallogin-bypass": "Umgehe die Prüfung der Gruppe, welche erlaubt sind zu umgehen"
 }

@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Fraxinus.cs",
 			"Want"
 		]
 	},
 	"legallogin-close": "Zavřít",
-	"legallogin-no": "Ne"
+	"legallogin-no": "Ne",
+	"right-legallogin-bypass": "Obejít kontrolu pro skupiny, kterým je dovoleno obcházet",
+	"action-legallogin-bypass": "Obejít kontrolu pro skupiny, kterým je dovoleno obcházet"
 }
