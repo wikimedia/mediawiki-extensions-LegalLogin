@@ -1,11 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Zabe"
+			"Zabe",
+			"MrFraggle",
+			"Umlaut"
 		]
 	},
 	"legallogin-true-answer-label": "Wahr",
 	"legallogin-false-answer-label": "Falsch",
+	"legallogin-submit": "Senden",
 	"legallogin-close": "Schließen",
 	"legallogin-yes": "Ja",
 	"legallogin-no": "Nein",
