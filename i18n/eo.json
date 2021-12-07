@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jakub Fabijan"
+		]
+	},
+	"legallogin-true-answer-label": "Vera",
+	"legallogin-logentry-question": "$1 respondo: $2",
+	"legallogin-close": "Fermi",
+	"legallogin-yes": "Jes",
+	"legallogin-no": "Ne"
+}

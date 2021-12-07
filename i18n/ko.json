@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"legallogin-policy-checkbox-label": "저는 $1을(를) 읽었으며 동의합니다",
+	"legallogin-policy-full-page-view": "전체 페이지 보기로 읽으려면 여기를 클릭하십시오",
+	"legallogin-true-answer-label": "참",
+	"legallogin-false-answer-label": "거짓",
+	"legallogin-policy-must-be-read": "수락하기 전에 '$1' 정책을 읽어야 합니다",
+	"legallogin-incorrect-answer-on-question": "'$1' 질문의 답변이 잘못되었습니다",
+	"legallogin-submit": "제출",
+	"legallogin-close": "닫기",
+	"legallogin-yes": "예",
+	"legallogin-no": "아니오",
+	"legallogin-js-should-be-enabled": "사이트에서 자바스크립트 활성화는 필수입니다"
+}

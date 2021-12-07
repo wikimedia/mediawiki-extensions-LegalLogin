@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajeje Brazorf"
+		]
+	},
+	"legallogin-true-answer-label": "Veru",
+	"legallogin-false-answer-label": "Farsu",
+	"legallogin-close": "Chiudi",
+	"legallogin-yes": "Sì",
+	"legallogin-no": "No"
+}

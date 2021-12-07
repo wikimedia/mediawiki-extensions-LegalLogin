@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"MrFraggle",
+			"Umlaut",
+			"Zabe"
+		]
+	},
+	"legallogin-true-answer-label": "Wahr",
+	"legallogin-false-answer-label": "Falsch",
+	"legallogin-submit": "Senden",
+	"legallogin-close": "Schließen",
+	"legallogin-yes": "Ja",
+	"legallogin-no": "Nein",
+	"legallogin-js-should-be-enabled": "Für diese Seite muss JavaScript aktiviert sein"
+}

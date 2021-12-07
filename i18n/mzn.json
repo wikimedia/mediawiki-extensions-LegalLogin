@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"فیروز"
+		]
+	},
+	"legallogin-policy-checkbox-label": "من $1 ره بخونسمه و قبول هاکردمه",
+	"legallogin-policy-full-page-view": "تموم صفحهٔ نمای دلهٔ مطالعه وسر اینجه ره کلیک هاکنین",
+	"legallogin-true-answer-label": "دِرِس",
+	"legallogin-false-answer-label": "نادِرِس",
+	"legallogin-submit": "ارسال",
+	"legallogin-close": "دَوِستِن",
+	"legallogin-yes": "اره",
+	"legallogin-no": "نا"
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Romaine"
+		]
+	},
+	"legallogin-true-answer-label": "Waar",
+	"legallogin-false-answer-label": "Onwaar",
+	"legallogin-yes": "Ja",
+	"legallogin-no": "Nee"
+}

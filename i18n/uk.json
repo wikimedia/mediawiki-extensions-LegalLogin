@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"DDPAT"
+		]
+	},
+	"log-name-legallogin": "Юридичний логін",
+	"log-description-legallogin": "Це журнал прийнятих правил юридичного входу та відповідей на запитання.",
+	"legallogin": "LegalLogin",
+	"legallogin-desc": "Це розширення вимагає, щоб користувачі підтвердили, натиснувши зовнішнє посилання, перед тим, як його надіслати на зовнішній сайт",
+	"legallogin-policy-checkbox-label": "Я прочитав і приймаю $1",
+	"legallogin-policy-full-page-view": "Натисніть тут, щоб прочитати в повноекранному режимі",
+	"legallogin-true-answer-label": "Істина",
+	"legallogin-false-answer-label": "Хибність",
+	"legallogin-extra-fields-required-for-account-creation": "Для створення облікового запису потрібні додаткові поля для входу в систему",
+	"legallogin-extra-fields-were-changed": "Поля юридичного входу були змінені",
+	"legallogin-policy-must-be-read": "Перш ніж прийняти, ви повинні прочитати політику \"$1\"",
+	"legallogin-policy-must-be-accepted": "Для виконання запитуваної операції ви повинні прийняти політику \"$1\"",
+	"legallogin-incorrect-answer-on-question": "Ваша відповідь на запитання \"$1\" неправильна",
+	"legallogin-logentry-policy": "$1 id: $2, вимагається: $3, прокручено: $4, відкрито: $5, прийнято: $6",
+	"legallogin-logentry-login": "$1 id: $2, відкрито: $3",
+	"legallogin-logentry-question": "$1 відповідь: $2",
+	"legallogin-complete-checkboxes": "Щоб продовжити, правильно заповніть прапорці",
+	"legallogin-submit": "Надіслати",
+	"legallogin-close": "Закрити",
+	"legallogin-yes": "Так",
+	"legallogin-no": "Ні",
+	"legallogin-js-should-be-enabled": "Для ввімкнення сайту потрібен JavaScript",
+	"legallogin-policies-must-be-accepted": "Ви повинні прийняти політику Legal Login",
+	"legallogin-debug-acceptance": ";Приймання;$1;$2;$3",
+	"legallogin-debug-login": ";Увійти;$1;$2;$3",
+	"logentry-legallogin-accept": "Користувач $1 прийняв {{PLURAL:$4|політику|політики}} $5 і відповів на {{PLURAL:$6|питання|питань}} $7. Користувач увійшов у систему $8 {{PLURAL:$8|раз|разів}} з моменту останнього прийняття, останній вхід був $9. $10.",
+	"logentry-legallogin-login": "Користувач $1 входив у систему $5 {{PLURAL:$5|раз|разів}} з моменту останнього прийняття, при цьому потрібно було прийняти $6:  $7. $4. $8.",
+	"right-legallogin-view-log": "Перегляньте прийняті правила Legal Login",
+	"action-legallogin-view-log": "перегляньте прийняту політику Legal Login"
+}
