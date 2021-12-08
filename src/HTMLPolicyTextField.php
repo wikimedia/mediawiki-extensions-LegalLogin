@@ -55,7 +55,7 @@ class HTMLPolicyTextField extends HTMLFormField {
 	public static function parse( string $string, ?Title $title = null ) {
 		$out = MediaWikiServices::getInstance()->getMessageCache()->parse(
 			$string,
-			$title,
+			$title ?? Title::newMainPage(),
 			true,
 			false
 		);

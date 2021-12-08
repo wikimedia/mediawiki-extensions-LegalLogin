@@ -177,7 +177,7 @@ class PolicyData {
 			$db->upsert(
 				'legallogin_accepted',
 				[ $index + $set ],
-				[ 'lla_user', 'lla_name' ],
+				[ [ 'lla_user', 'lla_name' ] ],
 				$set,
 				__METHOD__
 			);
@@ -224,7 +224,7 @@ class PolicyData {
 
 		// Save debug information
 		$csv = [];
-		foreach ( $param['4::policies'] as $value ) {
+		foreach ( $param['4::policies'] ?? [] as $value ) {
 			$csv[] = "policy name: {$value['name']}";
 			$csv[] = "id: {$value['policyId']}";
 			$csv[] = "revId: {$value['revId']}";
@@ -233,7 +233,7 @@ class PolicyData {
 			$csv[] = 'required: ' . ( $value['required'] ? 'Yes' : 'No' );
 			$csv[] = 'accepted: ' . ( $value['accepted'] ? 'Yes' : 'No' );
 		}
-		foreach ( $param['5::questions'] as $value ) {
+		foreach ( $param['5::questions'] ?? [] as $value ) {
 			$csv[] = "question name: {$value['name']}";
 			$csv[] = "revId: {$value['revId']}";
 			$csv[] = 'answer: ' . ( $value['answer'] ? 'True' : 'False' );
@@ -613,7 +613,7 @@ class PolicyData {
 		$db->upsert(
 			'legallogin_logged',
 			[ $index + $set ],
-			[ 'lll_user' ],
+			[ [ 'lll_user' ] ],
 			$set,
 			__METHOD__
 		);
