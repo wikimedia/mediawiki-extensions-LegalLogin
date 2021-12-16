@@ -5,7 +5,7 @@
 	"log-name-legallogin": "Legal Login",
 	"log-description-legallogin": "This is a log of accepted Legal Login policies and answered questions.",
 	"legallogin": "LegalLogin",
-	"legallogin-desc": "This extension requires users to confirm after clicking an external link, before being sent to the external site",
+	"legallogin-desc": "This extension requires acceptance of legal policies and correct answer on test questions during account creation and login",
 	"legallogin-policy-checkbox-label": "I have read and accept the $1",
 	"legallogin-policy-text-caption": "(Revision $1; $2)",
 	"legallogin-policy-full-page-view": "Click here to read in full-page view",
