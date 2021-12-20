@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Veikk0.ma"
+		]
+	},
+	"log-name-legallogin": "Legal Login",
+	"legallogin": "LegalLogin",
+	"legallogin-desc": "Tämä laajennus lisää vaatimuksen, että käyttäjät hyväksyvät lakikäytännöt ja vastaavat testikysymyksiin oikein käyttäjätilin luomisen ja sisäänkirjautumisen yhteydessä.",
+	"legallogin-policy-checkbox-label": "Olen lukenut ja hyväksynyt seuraavan asiakirjan: $1",
+	"legallogin-policy-text-caption": "(sivun versio $1; $2)",
+	"legallogin-policy-full-page-view": "Klikkaa tästä lukeaksesi kokoruututilassa",
+	"legallogin-true-answer-label": "Kyllä",
+	"legallogin-false-answer-label": "Ei",
+	"legallogin-extra-fields-required-for-account-creation": "Legal Login -kentät vaaditaan tunnuksen luomiseen",
+	"legallogin-extra-fields-were-changed": "Legal Login -kentät ovat muuttuneet",
+	"legallogin-policy-must-be-read": "Sinun tulee lukea $1 voidaksesi hyväksyä sen.",
+	"legallogin-policy-must-be-accepted": "Operaation suorittamiseksi sinun tulee hyväksyä $1",
+	"legallogin-incorrect-answer-on-question": "Vastauksesi kysymykseen $1 on väärin",
+	"legallogin-logentry-policy": "Asiakirjan $1 tunniste: $2, vaadittu: $3, rullattu loppuun: $4, avattu: $5, hyväksytty: $6",
+	"legallogin-logentry-login": "Asiakirjan $1 tunniste: $2, avattu: $3",
+	"legallogin-logentry-question": "Vastaus kysymykseen $1: $2",
+	"legallogin-complete-checkboxes": "Täytä valintaruudut oikein jatkaaksesi",
+	"legallogin-submit": "Tallenna",
+	"legallogin-close": "Sulje",
+	"legallogin-yes": "Kyllä",
+	"legallogin-no": "Ei",
+	"legallogin-js-should-be-enabled": "Sivusto vaatii, että JavaScript on käytössä",
+	"legallogin-policies-must-be-accepted": "Sinun tulee hyväksyä Legal Login -käytännöt",
+	"logentry-legallogin-accept": "Käyttäjä $1 hyväksyi {{PLURAL:$4|käytännön|käytäntöä}} $5 ja vastasi {{PLURAL:$6|kysymykseen}} $7. Käyttäjä on kirjautunut sisään $8 {{PLURAL:$8|kerran|kertaa}} viimeisimmän hyväksynnän jälkeen, viimeisin kirjautuminen tapahtui $9. $10",
+	"logentry-legallogin-login": "Käyttäjä $1 kirjautui sisään $5 {{PLURAL:$5|kerran|kertaa}} viimeisimmän hyväksynnän jälkeen, $6 hyväksyntä vaadittiin: $7. $4. $8.",
+	"right-legallogin-view-log": "Nähdä hyväksytyt Legal Login -käytännöt",
+	"action-legallogin-view-log": "nähdä hyväksyttyjä Legal Login -käytäntöjä"
+}
