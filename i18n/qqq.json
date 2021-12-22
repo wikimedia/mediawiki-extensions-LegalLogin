@@ -2,25 +2,26 @@
 	"@metadata": {
 		"authors": [
 			"Robby",
-			"Umherirrender"
+			"Umherirrender",
+			"Veikk0.ma"
 		]
 	},
 	"log-name-legallogin": "Name of log that appears on [[Special:Log]].",
 	"log-description-legallogin": "Display description for log name for changes in LegalLogin in Special:Log.",
 	"legallogin": "Title of LegalLogin special page",
 	"legallogin-desc": "{{desc|name=Legal Login|url=https://www.mediawiki.org/wiki/Extension:LegalLogin}}",
-	"legallogin-policy-checkbox-label": "Label of the checkbox used to accept the policy.\n\nParameters:\n* $1 - caption of the police",
+	"legallogin-policy-checkbox-label": "Label of the checkbox used to accept the policy.\n\nParameters:\n* $1 - caption of the policy",
 	"legallogin-policy-text-caption": "Part of policy name caption.\n\nParameters:\n* $1 - the policy revision number\n* $2 - the policy revision date",
 	"legallogin-policy-full-page-view": "Text of link to show the policy in full screen",
 	"legallogin-true-answer-label": "Text of label for answer on LegalLogin question as True",
 	"legallogin-false-answer-label": "Text of label for answer on LegalLogin question as False\n{{identical|False}}",
 	"legallogin-extra-fields-required-for-account-creation": "An error message shown when it creates account without LegalLogin fields data",
 	"legallogin-extra-fields-were-changed": "An error message shown when LegalLogin fields were changed while user filled out the login form",
-	"legallogin-policy-must-be-read": "An error message shown when user accepted a policy without reading one but reading one is required\n\nParameters:\n* $1 - caption of the police",
-	"legallogin-policy-must-be-accepted": "An error message shown when user didn't accept a policy\n\nParameters:\n* $1 - caption of the police",
+	"legallogin-policy-must-be-read": "An error message shown when user accepted a policy without reading one but reading one is required\n\nParameters:\n* $1 - caption of the policy",
+	"legallogin-policy-must-be-accepted": "An error message shown when user didn't accept a policy\n\nParameters:\n* $1 - caption of the policy",
 	"legallogin-incorrect-answer-on-question": "An error message shown when user answered incorrectly on a question\n\nParameters:\n* $1 - text of the question",
-	"legallogin-logentry-policy": "Information about accepted LegalLogin police in Special:Log.\n\nParameters:\n* $1 - link to the legal login police\n* $2 - id of the legal login police\n$3 - required the policy to be opened or not\n* $4 - was scrolled the policy at the end or not\n* $5 - was the policy opened in full screen or not\n* $6 - was the policy accepted or not",
-	"legallogin-logentry-login": "Information about opened LegalLogin polices in Special:Log.\n\nParameters:\n* $1 - link to the legal login police\n* $2 - id of the legal login police\n$3 - was opened the policy or not",
+	"legallogin-logentry-policy": "Information about accepted LegalLogin policies in Special:Log.\n\nParameters:\n* $1 - link to the legal login policy\n* $2 - id of the legal login policy\n$3 - required the policy to be opened or not\n* $4 - was scrolled the policy at the end or not\n* $5 - was the policy opened in full screen or not\n* $6 - was the policy accepted or not",
+	"legallogin-logentry-login": "Information about opened LegalLogin polices in Special:Log.\n\nParameters:\n* $1 - link to the legal login policy\n* $2 - id of the legal login policy\n$3 - was opened the policy or not",
 	"legallogin-logentry-question": "Information about answer in Special:Log.\n\n* $1 - Link to the question\n* $2 - user's answer on the question",
 	"legallogin-complete-checkboxes": "Label of submit button which shown until user correctly completed LegalLogin checkboxes.",
 	"legallogin-submit": "Label of submit button when user correctly completed LegalLogin checkboxes.\n{{identical|Submit}}",
