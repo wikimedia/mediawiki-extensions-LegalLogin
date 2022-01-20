@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Hedda",
-			"Joseph"
+			"Joseph",
+			"SaldırganSincap"
 		]
 	},
 	"log-name-legallogin": "Yasal Giriş",
 	"log-description-legallogin": "Bu, kabul edilmiş Yasal Giriş ilkelerinin ve cevaplanan soruların günlüğüdür.",
 	"legallogin": "YasalGiriş",
-	"legallogin-desc": "Bu uzantı, kullanıcıların bir harici bağlantıya tıkladıklarında siteye gitmeden önce kullanıcılardan onay ister.",
+	"legallogin-desc": "Bu uzantı, hesap oluşturma ve oturum açma sırasında yasal politikaların kabul edilmesini ve test sorularının doğru yanıtlanmasını gerektirir",
 	"legallogin-policy-checkbox-label": "$1 ilkesini okudum ve kabul ettim",
 	"legallogin-policy-text-caption": "(Sürüm $1; $2)",
 	"legallogin-policy-full-page-view": "Tam sayfa görünümünde okumak için burayı tıklayın",
