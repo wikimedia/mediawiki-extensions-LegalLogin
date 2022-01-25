@@ -3,7 +3,8 @@
 		"authors": [
 			"DreZhsh",
 			"Gomoko",
-			"JenyxGym"
+			"JenyxGym",
+			"Verdy p"
 		]
 	},
 	"log-name-legallogin": "Connexion légale",
@@ -29,6 +30,8 @@
 	"legallogin-no": "Non",
 	"legallogin-js-should-be-enabled": "Le site nécessite que JavaScript soit activé",
 	"legallogin-policies-must-be-accepted": "Vous devez accepter les conditions de Connexion légale",
+	"legallogin-debug-acceptance": ";Acceptance;$1;$2;$3",
+	"legallogin-debug-login": ";Login;$1;$2;$3",
 	"logentry-legallogin-accept": "L’utilisateur $1 a accepté {{PLURAL:$4|la politique|les politiques}} $5 et a répondu {{PLURAL:$6|à une question|aux questions}} $7. L’utilisateur s’est connecté $8 {{PLURAL:$8|fois}} depuis la dernière acceptation, sa dernière connexion à $9. $10.",
 	"logentry-legallogin-login": "L’utilisateur $1 s’est connecté $5 {{PLURAL:$5|fois}} depuis la dernière acceptation, à $6 l’acceptation était nécessaire : $7. $4. $8.",
 	"right-legallogin-view-log": "Afficher les politiques de Connexion légale acceptées",
