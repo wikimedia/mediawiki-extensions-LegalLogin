@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Avengium",
+			"MarcoAurelio"
+		]
+	},
+	"log-description-legallogin": "Este es un registro de políticas legales aceptadas para iniciar sesión y de preguntas contestadas.",
+	"legallogin-policy-checkbox-label": "He leído y acepto el $1",
+	"legallogin-policy-full-page-view": "Haz clic aquí para leer el texto en pantalla completa",
+	"legallogin-true-answer-label": "Verdadero",
+	"legallogin-false-answer-label": "Falso",
+	"legallogin-policy-must-be-read": "Debes leer '$1' antes de aceptar",
+	"legallogin-policy-must-be-accepted": "Debes aceptar '$1' para realizar la operación solicitada",
+	"legallogin-incorrect-answer-on-question": "Tu respuesta a la pregunta '$1' es incorrecta",
+	"legallogin-yes": "Sí",
+	"legallogin-no": "No"
+}
