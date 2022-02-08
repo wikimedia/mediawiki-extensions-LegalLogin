@@ -43,6 +43,7 @@ class HTMLPolicyLinkField extends HTMLFormField {
 	private function makeHiddenField( string $namePostfix, $value ) {
 		$params = [
 			'name' => $this->mParams['name'] . '-' . $namePostfix,
+			'fieldname' => $this->mParams['name'] . '-' . $namePostfix,
 			'default' => $value,
 		];
 		$fpvInputClicked = new HTMLHiddenField( $params );
