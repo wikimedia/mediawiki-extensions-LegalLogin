@@ -2,7 +2,7 @@
 	'use strict';
 
 	$( function () {
-		var $policyCheckboxes = $( '.legal-login-field input[type=checkbox]' ),
+		var $policyCheckboxes = $( '.legal-login-field > div.mw-ui-checkbox input[type=checkbox]' ),
 			policyCheckboxesChecked = false,
 			$questionsRadio = $( '.legal-login-field input[type=radio]' ),
 			$questionElements = $( '.legallogin-policy-question' ),
