@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Avengium",
+			"DiegoAmbrocio",
 			"MarcoAurelio"
 		]
 	},
@@ -15,6 +16,10 @@
 	"legallogin-policy-must-be-read": "Debes leer '$1' antes de aceptar",
 	"legallogin-policy-must-be-accepted": "Debes aceptar '$1' para realizar la operación solicitada",
 	"legallogin-incorrect-answer-on-question": "Tu respuesta a la pregunta '$1' es incorrecta",
+	"legallogin-logentry-question": "$1 respuesta: $2",
+	"legallogin-complete-checkboxes": "Rellene correctamente las casillas para continuar",
+	"legallogin-submit": "Enviar",
+	"legallogin-close": "Cerrar",
 	"legallogin-yes": "Sí",
 	"legallogin-no": "No",
 	"right-legallogin-bypass": "Omitir la verificación, para grupos a los que se les permite omitir",

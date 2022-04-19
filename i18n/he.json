@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ex-Diktator",
 			"Neriah"
 		]
 	},
 	"legallogin-true-answer-label": "נכון",
 	"legallogin-false-answer-label": "שגוי",
+	"legallogin-submit": "שליחה",
 	"legallogin-yes": "כן",
 	"legallogin-no": "לא"
 }
