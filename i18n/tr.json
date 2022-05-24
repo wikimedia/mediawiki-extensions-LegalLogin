@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Hedda",
-			"Joseph"
+			"Joseph",
+			"SaldırganSincap"
 		]
 	},
 	"log-name-legallogin": "Yasal Giriş",
@@ -28,7 +29,7 @@
 	"legallogin-no": "Hayır",
 	"legallogin-js-should-be-enabled": "Site, JavaScript'in etkinleştirilmesini gerektiriyor",
 	"legallogin-policies-must-be-accepted": "Yasal Giriş ilkelerini kabul etmelisiniz",
-	"logentry-legallogin-accept": "$1 kullanıcısı $5 {{PLURAL:$4|ilkesini|ilkelerini}} kabul etti ve $7 {{PLURAL:$6|sorusunu|sorularını}} cevapladı. Kullanıcı son kabulden sonra $8 kere giriş yaptı, son giriş $9. $10.",
+	"logentry-legallogin-accept": "$1 kullanıcısı, $5 {{PLURAL:$4|ilkesini|ilkelerini}} kabul etti ve $7 {{PLURAL:$6|sorusunu|sorularını}} cevapladı. Kullanıcı son kabulden sonra $8 kere oturum açtı, son oturum: $9. $10.",
 	"logentry-legallogin-login": "$1, son kabulden bu yana $5 {{PLURAL:$5|kez|kez}} giriş yaptı, $6 tarihinde kabul edilmesi gerekti: $7. $4. $8.",
 	"right-legallogin-view-log": "Kabul edilmiş Yasal Giriş ilkelerini gör",
 	"action-legallogin-view-log": "kabul edilen Yasal Giriş politikalarını görüntüleyin"
