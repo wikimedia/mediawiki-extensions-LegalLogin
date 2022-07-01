@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"log-name-legallogin": "Session juridic",
+	"log-description-legallogin": "Isto es un log del politicas Session Juridic acceptate e de questiones respondite.",
+	"legallogin": "SessionJuridic",
+	"legallogin-desc": "Iste extension require le acceptation de politicas juridic e un responsa correcte a questiones de proba durante le creation de contos e le apertura de session",
+	"legallogin-policy-checkbox-label": "Io ha legite e acceptate le $1",
+	"legallogin-policy-text-caption": "(Version $1; $2)",
+	"legallogin-policy-full-page-view": "Clicca hic pro leger in plen pagina",
+	"legallogin-true-answer-label": "Ver",
+	"legallogin-false-answer-label": "False",
+	"legallogin-extra-fields-required-for-account-creation": "Le campos extra de Session Juridic es necessari pro le creation del conto",
+	"legallogin-extra-fields-were-changed": "Le campos de Session Juridic ha cambiate",
+	"legallogin-policy-must-be-read": "Tu debe leger le politica '$1' ante de acceptar",
+	"legallogin-policy-must-be-accepted": "Pro le operation requestate tu debe acceptar le politica '$1'",
+	"legallogin-incorrect-answer-on-question": "Tu responsa al question '$1' es incorrecte",
+	"legallogin-logentry-policy": "$1 id: $2, obligatori: $3, rolate: $4, aperite: $5, acceptate: $6",
+	"legallogin-logentry-login": "$1 id: $2, aperite: $3",
+	"legallogin-logentry-question": "$1 responsa: $2",
+	"legallogin-complete-checkboxes": "Marca correctemente le quadratos pro continuar",
+	"legallogin-submit": "Submitter",
+	"legallogin-close": "Clauder",
+	"legallogin-yes": "Si",
+	"legallogin-no": "No",
+	"legallogin-js-should-be-enabled": "JavaScript debe esser activate pro iste sito",
+	"legallogin-policies-must-be-accepted": "Tu debe acceptar le politicas de Session Juridic",
+	"logentry-legallogin-accept": "Le usator $1 ha acceptate le politica{{PLURAL:$4||s}} $5 e ha respondite al question{{PLURAL:$6||es}} $7. Le usator ha aperite session $8 vice{{PLURAL:$8||s}} depost le ultime acceptation, su ultime session al $9. $10.",
+	"logentry-legallogin-login": "Le usator $1 ha aperite session $5 vice{{PLURAL:$5||s}} post le ultime acceptation, a $6 le acceptation esseva obligatori: $7. $4. $8.",
+	"right-legallogin-view-log": "Vider le politicas Session Juridic acceptate",
+	"action-legallogin-view-log": "vider le politicas Session Juridic acceptate",
+	"right-legallogin-bypass": "Contornar le verification pro le gruppos autorisate a contornar",
+	"action-legallogin-bypass": "contornar le verification pro le gruppos autorisate a contornar"
+}
