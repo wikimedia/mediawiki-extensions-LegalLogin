@@ -100,6 +100,8 @@ class LegalLoginHooks {
 			// Make sure the meta=token parameter was not added to bypass another action=query request
 			// Allow parameters from the main API module
 			$allowedApiParams = $main->getFinalParams();
+			// Allow parameters from the query module
+			$allowedApiParams += $main->getModuleFromPath( 'query' )->getFinalParams();
 			// Allow parameters from the query+tokens module
 			$allowedApiParams += $main->getModuleFromPath( 'query+tokens' )->getFinalParams();
 			if ( !array_diff_key( $request->getValues(), $allowedApiParams ) ) {
