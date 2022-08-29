@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Brettchenweber",
 			"MrFraggle",
 			"Umlaut",
 			"Zabe"
@@ -8,6 +9,7 @@
 	},
 	"legallogin-true-answer-label": "Wahr",
 	"legallogin-false-answer-label": "Falsch",
+	"legallogin-incorrect-answer-on-question": "Deine Antwort auf die Frage ‚$1‘ ist falsch",
 	"legallogin-submit": "Senden",
 	"legallogin-close": "Schließen",
 	"legallogin-yes": "Ja",
