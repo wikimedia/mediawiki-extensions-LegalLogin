@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"log-name-legallogin": "Autenticação legal",
+	"log-description-legallogin": "Este registo é das normas aceites e perguntas respondidas da autenticação legal",
+	"legallogin": "LegalLogin",
+	"legallogin-desc": "Esta extensão requer a aceitação de normas legais e a resposta correta de perguntas de teste durante a criação de conta e o início de sessão",
+	"legallogin-policy-checkbox-label": "Li e aceito a norma '$1'",
+	"legallogin-policy-text-caption": "(Revisão $1; $2)",
+	"legallogin-policy-full-page-view": "Clicar aqui para ler na vista de página inteira",
+	"legallogin-true-answer-label": "Verdadeiro",
+	"legallogin-false-answer-label": "Falso",
+	"legallogin-extra-fields-required-for-account-creation": "Campos extra da autenticação legal necessários para a criação da conta",
+	"legallogin-extra-fields-were-changed": "Os campos da autenticação legal foram alterados",
+	"legallogin-policy-must-be-read": "Tem de ler a norma '$1' antes de aceitar",
+	"legallogin-policy-must-be-accepted": "Para a operação pretendida tem de aceitar a norma '$1'",
+	"legallogin-incorrect-answer-on-question": "A sua resposta à pergunta '$1' está incorreta",
+	"legallogin-logentry-policy": "$1 identificador: $2, exigida: $3, deslizada: $4, aberta: $5, aceite: $6",
+	"legallogin-logentry-login": "$1 identificador: $2, aberta: $3",
+	"legallogin-logentry-question": "$1 resposta: $2",
+	"legallogin-complete-checkboxes": "Marque corretamente as caixas de seleção para continuar",
+	"legallogin-submit": "Submeter",
+	"legallogin-close": "Fechar",
+	"legallogin-yes": "Sim",
+	"legallogin-no": "Não",
+	"legallogin-js-should-be-enabled": "O ''site'' requer que o JavaScript esteja ativado",
+	"legallogin-policies-must-be-accepted": "Deve aceitar as normas da autenticação legal",
+	"logentry-legallogin-accept": "O utilizador $1 aceitou {{PLURAL:$4|a norma|as normas}} $5 e respondeu {{PLURAL:$6|à pergunta|às perguntas}} $7. O utilizador iniciou uma sessão $8 {{PLURAL:$8|vez|vezes}} desde a última aceitação, tendo o último início de sessão sido a $9. $10.",
+	"logentry-legallogin-login": "O utilizador $1 iniciou sessão $5 {{PLURAL:$5|vez|vezes}} desde a última aceitação. A $6 foi exigida aceitação: $7. $4. $8.",
+	"right-legallogin-view-log": "Ver as normas da autenticação legal aceites",
+	"action-legallogin-view-log": "ver as normas da autenticação legal aceites",
+	"right-legallogin-bypass": "Contornar a verificação, para os grupos autorizados a contorná-la",
+	"action-legallogin-bypass": "contornar a verificação, para os grupos autorizados a contorná-la"
+}
