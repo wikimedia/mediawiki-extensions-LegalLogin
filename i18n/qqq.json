@@ -3,7 +3,8 @@
 		"authors": [
 			"Robby",
 			"Umherirrender",
-			"Veikk0.ma"
+			"Veikk0.ma",
+			"Hamilton Abreu"
 		]
 	},
 	"log-name-legallogin": "Name of log that appears on [[Special:Log]].",
@@ -20,8 +21,8 @@
 	"legallogin-policy-must-be-read": "An error message shown when user accepted a policy without reading one but reading one is required\n\nParameters:\n* $1 - caption of the policy",
 	"legallogin-policy-must-be-accepted": "An error message shown when user didn't accept a policy\n\nParameters:\n* $1 - caption of the policy",
 	"legallogin-incorrect-answer-on-question": "An error message shown when user answered incorrectly on a question\n\nParameters:\n* $1 - text of the question",
-	"legallogin-logentry-policy": "Information about accepted LegalLogin policies in Special:Log.\n\nParameters:\n* $1 - link to the legal login policy\n* $2 - id of the legal login policy\n$3 - required the policy to be opened or not\n* $4 - was scrolled the policy at the end or not\n* $5 - was the policy opened in full screen or not\n* $6 - was the policy accepted or not",
-	"legallogin-logentry-login": "Information about opened LegalLogin polices in Special:Log.\n\nParameters:\n* $1 - link to the legal login policy\n* $2 - id of the legal login policy\n$3 - was opened the policy or not",
+	"legallogin-logentry-policy": "Information about accepted LegalLogin policies in Special:Log.\n\nParameters:\n* $1 - link to the legal login policy\n* $2 - id of the legal login policy\n* $3 - required the policy to be opened or not\n* $4 - was scrolled the policy at the end or not\n* $5 - was the policy opened in full screen or not\n* $6 - was the policy accepted or not",
+	"legallogin-logentry-login": "Information about opened LegalLogin polices in Special:Log.\n\nParameters:\n* $1 - link to the legal login policy\n* $2 - id of the legal login policy\n* $3 - was opened the policy or not",
 	"legallogin-logentry-question": "Information about answer in Special:Log.\n\n* $1 - Link to the question\n* $2 - user's answer on the question",
 	"legallogin-complete-checkboxes": "Label of submit button which shown until user correctly completed LegalLogin checkboxes.",
 	"legallogin-submit": "Label of submit button when user correctly completed LegalLogin checkboxes.\n{{identical|Submit}}",
@@ -32,8 +33,8 @@
 	"legallogin-policies-must-be-accepted": "Error message when user didn't accept LegalLogin polices",
 	"legallogin-debug-acceptance": "{{optional}}\nInformation about accepted LegalLogin polices in log file.\n\nParameters:\n* $1 - user id\n* $2 - user name\n* $3 - string contains accepted polices and answered questions",
 	"legallogin-debug-login": "{{optional}}\nInformation about opened LegalLogin polices in log file.\n\nParameters:\n* $1 - user id\n* $2 - user name\n* $3 - information about LegalLogin state",
-	"logentry-legallogin-accept": "Message about accepted LegalLogin polices in Special:Log\n\nParameters:* $1 - link to the user page\n* $4 - number of accepted policies\n* $5 - information about accepted policies\n* $6 - number of answered questions\n* $7 - information about answered questions\n* $8 - number of user logins since last acceptance\n* $9 - date of last login of the user\n* $10 - link to the git repo of the LegalLogin extension",
-	"logentry-legallogin-login": "Message about opened LegalLogin polices in Special:Log\n\nParameters:* $1 - link to the user page\n* $4 - information about opened LegalLogin polices\n* $5 - number of login since last acceptance\n* $6 - datetime of the message\n* $7 - was acceptance required or not\n* $8 - link to the git repo of the LegalLogin extension",
+	"logentry-legallogin-accept": "Message about accepted LegalLogin polices in Special:Log\n\nParameters:\n* $1 - link to the user page\n* $4 - number of accepted policies\n* $5 - information about accepted policies\n* $6 - number of answered questions\n* $7 - information about answered questions\n* $8 - number of user logins since last acceptance\n* $9 - date of last login of the user\n* $10 - link to the git repo of the LegalLogin extension",
+	"logentry-legallogin-login": "Message about opened LegalLogin polices in Special:Log\n\nParameters:\n* $1 - link to the user page\n* $4 - information about opened LegalLogin polices\n* $5 - number of login since last acceptance\n* $6 - datetime of the message\n* $7 - was acceptance required or not\n* $8 - link to the git repo of the LegalLogin extension",
 	"right-legallogin-view-log": "{{doc-right|legallogin-view-log}}",
 	"action-legallogin-view-log": "{{doc-action|legallogin-view-log}}",
 	"right-legallogin-bypass": "{{doc-right|legallogin-bypass}}",
