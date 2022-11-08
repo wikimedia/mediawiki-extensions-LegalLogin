@@ -21,7 +21,7 @@
 	"legallogin-policy-must-be-read": "Vous devez lire la politique '$1' avant d’accepter",
 	"legallogin-policy-must-be-accepted": "Pour l’opération demandée, vous devez accepter la politique '$1'",
 	"legallogin-incorrect-answer-on-question": "Votre réponse à la question '$1' n’est pas correcte",
-	"legallogin-logentry-policy": "$1 id : $2, obligatoire : $3, défilé : $4, ouvert : $5, accepté : $6",
+	"legallogin-logentry-policy": "$1 identifiant : $2 ; obligatoire : $3 ; défilé : $4 ; ouvert : $5 ; accepté : $6",
 	"legallogin-logentry-login": "$1 id : $2, ouvert : $3",
 	"legallogin-logentry-question": "$1 réponse : $2",
 	"legallogin-complete-checkboxes": "Compléter correctement les cases à cocher pour continuer",
@@ -34,7 +34,7 @@
 	"legallogin-debug-acceptance": ";Acceptance;$1;$2;$3",
 	"legallogin-debug-login": ";Login;$1;$2;$3",
 	"logentry-legallogin-accept": "L’utilisateur $1 a accepté {{PLURAL:$4|la politique|les politiques}} $5 et a répondu {{PLURAL:$6|à une question|aux questions}} $7. L’utilisateur s’est connecté $8 {{PLURAL:$8|fois}} depuis la dernière acceptation, sa dernière connexion à $9. $10.",
-	"logentry-legallogin-login": "L’utilisateur $1 s’est connecté $5 {{PLURAL:$5|fois}} depuis la dernière acceptation, à $6 l’acceptation était nécessaire : $7. $4. $8.",
+	"logentry-legallogin-login": "L’utilisateur $1 s’est connecté $5 fois{{PLURAL:$5|}} depuis la dernière acceptation, à $6 l’acceptation était nécessaire : $7. $4. $8.",
 	"right-legallogin-view-log": "Afficher les politiques de Connexion légale acceptées",
 	"action-legallogin-view-log": "afficher les politiques de Connexion légale acceptées"
 }
