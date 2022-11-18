@@ -18,6 +18,7 @@ class PolicyLinks extends HTMLFormField {
 				$policyFieldName = PolicyField::getPolicyFieldName( $data['name'] );
 				$params = [
 					'name' => $policyFieldName,
+					'fieldname' => $policyFieldName,
 				];
 				$pfElement = new HTMLPolicyLinkField( $params );
 				$name = $pfElement->mName;

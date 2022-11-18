@@ -78,6 +78,10 @@
 			"styles": "policyField.less",
 			"messages": [
 				"legallogin-close"
+			],
+			"dependencies": [
+				"oojs-ui-core",
+				"oojs-ui-windows"
 			]
 		},
 		"ext.LegalLogin.policyLinks": {
@@ -85,6 +89,10 @@
 			"styles": "policyLinks.less",
 			"messages": [
 				"legallogin-close"
+			],
+			"dependencies": [
+				"oojs-ui-core",
+				"oojs-ui-windows"
 			]
 		}
 	},
