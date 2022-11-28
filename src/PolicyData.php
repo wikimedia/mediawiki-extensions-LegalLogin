@@ -471,7 +471,12 @@ class PolicyData {
 		if ( !$title->exists() ) {
 			throw new MWException( 'Title ' . $title->getFullText() . ' does not exists' );
 		}
-		$page = new WikiPage( $title );
+		if ( method_exists( MediaWikiServices::class, 'getWikiPageFactory' ) ) {
+			// MW 1.36+
+			$page = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $title );
+		} else {
+			$page = new WikiPage( $title );
+		}
 		$id = self::getPolicyId( $page->getId() );
 		$revRecord = $page->getRevisionRecord();
 		if ( !$revRecord ) {

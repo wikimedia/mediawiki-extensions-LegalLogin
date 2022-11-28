@@ -82,20 +82,34 @@ class LegalLoginHooks {
 	 */
 	public static function onApiBeforeMain( ApiMain $main ) {
 		$user = $main->getUser();
+		$request = $main->getRequest();
 		if (
 			// Always allow logout action
-			$main->getRequest()->getVal( 'action' ) === 'logout'
+			$request->getVal( 'action' ) === 'logout'
 			// Always allow login action
-			|| $main->getRequest()->getVal( 'action' ) === 'login'
-			// Always allow token action
-			|| (
-				$main->getRequest()->getVal( 'action' ) === 'query'
-				&& $main->getRequest()->getVal( 'meta' ) === 'tokens'
-			)
+			|| $request->getVal( 'action' ) === 'login'
 		) {
 			// Bypass
 			return;
 		}
+
+		// Always allow token action
+		if ( $request->getVal( 'action' ) === 'query'
+			&& $request->getVal( 'meta' ) === 'tokens'
+		) {
+			// Make sure the meta=token parameter was not added to bypass another action=query request
+			// Allow parameters from the main API module
+			$allowedApiParams = $main->getFinalParams();
+			// Allow parameters from the query module
+			$allowedApiParams += $main->getModuleFromPath( 'query' )->getFinalParams();
+			// Allow parameters from the query+tokens module
+			$allowedApiParams += $main->getModuleFromPath( 'query+tokens' )->getFinalParams();
+			if ( !array_diff_key( $request->getValues(), $allowedApiParams ) ) {
+				// Bypass, there is no additional parameters
+				return;
+			}
+		}
+
 		// TODO Probably anonymous users should not have access to read already
 		if ( $user->isRegistered() ) {
 
