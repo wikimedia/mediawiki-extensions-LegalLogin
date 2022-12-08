@@ -22,7 +22,7 @@
 	"legallogin-policy-must-be-accepted": "Pour l’opération demandée, vous devez accepter la politique '$1'",
 	"legallogin-incorrect-answer-on-question": "Votre réponse à la question '$1' n’est pas correcte",
 	"legallogin-logentry-policy": "$1 identifiant : $2 ; obligatoire : $3 ; défilé : $4 ; ouvert : $5 ; accepté : $6",
-	"legallogin-logentry-login": "$1 id : $2, ouvert : $3",
+	"legallogin-logentry-login": "$1 identifiant : $2 ; ouvert : $3",
 	"legallogin-logentry-question": "$1 réponse : $2",
 	"legallogin-complete-checkboxes": "Compléter correctement les cases à cocher pour continuer",
 	"legallogin-submit": "Soumettre",
