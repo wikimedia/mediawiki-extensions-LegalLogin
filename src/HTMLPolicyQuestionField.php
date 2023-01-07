@@ -19,6 +19,7 @@ class HTMLPolicyQuestionField extends HTMLRadioField {
 			'name' => $this->mParams['name'] . '-revId',
 			'fieldname' => $this->mParams['name'] . '-revId',
 			'default' => $this->mParams['revId'],
+			'parent' => $this->mParent
 		] );
 		list( $name, $v, $params ) = $revField->getHiddenFieldData( $value );
 		$revFieldHtml = Html::hidden( $name, $v, $params ) . "\n";
