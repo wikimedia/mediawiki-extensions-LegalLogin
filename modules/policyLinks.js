@@ -2,10 +2,12 @@
 	'use strict';
 
 	$( function () {
-		$( '.legallogin-fpv-link' ).on( 'click', function () {
+		$( 'a.legallogin-fpv-link' ).on( 'click', function () {
 			var $element = $( this ),
-				id = $element.attr( 'data-id' ),
-				policyHtml = $element.attr( 'data-html' ),
+				id = $element.attr( 'data-mw-ll-id' ),
+				// We prefix this with data-mw to ensure that the MW
+				// parser will never output an element with that attribute.
+				policyHtml = $element.attr( 'data-mw-ll-html' ),
 				manager = OO.ui.getWindowManager(),
 				$message = $( '<div>' ).html( policyHtml ).addClass( 'legallogin-policy-fullscreen-text' ),
 				messageWindow;
