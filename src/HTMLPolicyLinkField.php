@@ -22,8 +22,12 @@ class HTMLPolicyLinkField extends HTMLFormField {
 			'a',
 			[
 				'class' => 'legallogin-fpv-link',
-				'data-id' => $this->mID,
-				'data-html' => HTMLPolicyTextField::parse( $value['text'] ),
+				// prefixing with data-mw ensures that MW parser will never
+				// output that attribute. This is a defense in case of an
+				// error message that uses wfMessage()->parse and takes a
+				// user controllable parameter.
+				'data-mw-ll-id' => $this->mID,
+				'data-mw-ll-html' => HTMLPolicyTextField::parse( $value['text'] ),
 			],
 			$value['caption'] . ' ' . $fpvText
 		);
