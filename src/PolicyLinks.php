@@ -19,6 +19,7 @@ class PolicyLinks extends HTMLFormField {
 				$params = [
 					'name' => $policyFieldName,
 					'fieldname' => $policyFieldName,
+					'parent' => $this->mParent
 				];
 				$pfElement = new HTMLPolicyLinkField( $params );
 				$name = $pfElement->mName;

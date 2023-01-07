@@ -45,6 +45,7 @@ class HTMLPolicyLinkField extends HTMLFormField {
 			'name' => $this->mParams['name'] . '-' . $namePostfix,
 			'fieldname' => $this->mParams['name'] . '-' . $namePostfix,
 			'default' => $value,
+			'parent' => $this->mParent
 		];
 		$fpvInputClicked = new HTMLHiddenField( $params );
 		list( $name, $v, $params ) = $fpvInputClicked->getHiddenFieldData( $value );
