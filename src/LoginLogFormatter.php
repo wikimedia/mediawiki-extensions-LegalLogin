@@ -42,7 +42,7 @@ class LoginLogFormatter extends LogFormatter {
 				Message::rawParam( $link ),
 				$policyId,
 				$opened
-			)->text();
+			)->escaped();
 		}
 		$params[3] = Message::rawParam( '<' . implode( '; ', $policiesText ) . '>' );
 
