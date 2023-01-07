@@ -565,7 +565,7 @@ class PolicyData {
 				}
 
 				if ( $legalLoginData[$fieldName] !== ( $data['answer'] ? 'true' : 'false' ) ) {
-					return StatusValue::newFatal( 'legallogin-incorrect-answer-on-question', $data['label'] );
+					return StatusValue::newFatal( 'legallogin-incorrect-answer-on-question', $data['text'] );
 				}
 				$logEntryParameters['5::questions'][] = [
 					'name' => $data['name'],
