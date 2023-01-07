@@ -53,7 +53,7 @@ class AcceptanceLogFormatter extends LogFormatter {
 					$p['scrolled'] ? $yes : $no,
 					$p['opened'] ? $yes : $no,
 					$accepted
-				)->text();
+				)->escaped();
 			}
 		}
 		$params[4] = Message::rawParam( '<' . implode( '; ', $policiesText ) . '>' );
@@ -70,7 +70,7 @@ class AcceptanceLogFormatter extends LogFormatter {
 					'legallogin-logentry-question',
 					Message::rawParam( $link ),
 					$q['answer'] ? $true : $false
-				)->text();
+				)->escaped();
 			}
 		}
 		$params[6] = Message::rawParam( '<' . implode( '; ', $questionsText ) . '>' );
@@ -86,8 +86,8 @@ class AcceptanceLogFormatter extends LogFormatter {
 			$params[8] = '<unknown>';
 		}
 
-		// @phan-suppress-next-next-line SecurityCheck-DoubleEscaped
-		// Calling method \Html::element() in getMessageParameters that outputs using tainted argument #2.
+		// PhanTaintCheck gets confused by MW core's log parameter formatting code
+		// @phan-suppress-next-line SecurityCheck-DoubleEscaped
 		$gitLink = Html::element( 'a', [ 'href' => $git['url'] ?? '', 'title' => $git['sha1'] ?? '' ], 'git' );
 		$params[9] = Message::rawParam( $gitLink );
 		return $params;
