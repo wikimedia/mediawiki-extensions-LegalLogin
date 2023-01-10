@@ -16,15 +16,15 @@
 		$( '#wpLegalLoginFieldEnableJS' ).toggle( false );
 
 		$questionElements.each( function () {
-			questionCorrectAnswers.push( $( this ).attr( 'data-legallogin-answer' ) );
+			questionCorrectAnswers.push( $( this ).attr( 'data-mw-legallogin-answer' ) );
 		} );
 		if ( questionCorrectAnswers.length ) {
 			questionCorrectAnswersSelector = '#' + questionCorrectAnswers.join( ':checked, #' ) + ':checked';
 		}
 
-		$( '.legallogin-fpv-link' ).on( 'click', function () {
+		$( 'a.legallogin-fpv-link' ).on( 'click', function () {
 			var $element = $( this ),
-				id = $element.attr( 'data' ),
+				id = $element.attr( 'data-mw-ll-text-id' ),
 				$textarea = $( '#' + id ),
 				policyHtml = $textarea.html(),
 				manager = OO.ui.getWindowManager(),

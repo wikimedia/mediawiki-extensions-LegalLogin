@@ -28,7 +28,7 @@ class HTMLPolicyTextField extends HTMLFormField {
 			'a',
 			[
 				'class' => 'legallogin-fpv-link',
-				'data' => $this->mID,
+				'data-mw-ll-text-id' => $this->mID,
 			],
 			$fpvText
 		);

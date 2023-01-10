@@ -25,7 +25,7 @@ class HTMLPolicyQuestionField extends HTMLRadioField {
 		$revFieldHtml = Html::hidden( $name, $v, $params ) . "\n";
 		$attr = [
 			'class' => 'legallogin-policy-question',
-			'data-legallogin-answer' => $this->mID . '-' . $answer,
+			'data-mw-legallogin-answer' => $this->mID . '-' . $answer,
 		];
 		return Html::rawElement( 'div', $attr, $label . ' ' . $radio . $revFieldHtml );
 	}
