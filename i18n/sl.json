@@ -4,7 +4,9 @@
 			"Eleassar"
 		]
 	},
+	"log-name-legallogin": "Zakonita prijava",
 	"legallogin-true-answer-label": "Resnično",
 	"legallogin-false-answer-label": "Napačno",
-	"legallogin-submit": "Predloži"
+	"legallogin-submit": "Predloži",
+	"legallogin-close": "Zapri"
 }
