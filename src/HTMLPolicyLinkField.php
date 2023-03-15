@@ -17,7 +17,6 @@ class HTMLPolicyLinkField extends HTMLFormField {
 		$ts = $value['timestamp'];
 		$revDate = MWTimestamp::getInstance( $ts )->format( 'Y-m-d' );
 		$fpvText = $this->msg( 'legallogin-policy-text-caption', $value['policyId'], $revDate );
-		// @phan-suppress-next-line SecurityCheck-DoubleEscaped
 		$link = Html::element(
 			'a',
 			[

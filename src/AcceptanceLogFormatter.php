@@ -86,8 +86,6 @@ class AcceptanceLogFormatter extends LogFormatter {
 			$params[8] = '<unknown>';
 		}
 
-		// PhanTaintCheck gets confused by MW core's log parameter formatting code
-		// @phan-suppress-next-line SecurityCheck-DoubleEscaped
 		$gitLink = Html::element( 'a', [ 'href' => $git['url'] ?? '', 'title' => $git['sha1'] ?? '' ], 'git' );
 		$params[9] = Message::rawParam( $gitLink );
 		return $params;

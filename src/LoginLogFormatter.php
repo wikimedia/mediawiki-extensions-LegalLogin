@@ -59,7 +59,6 @@ class LoginLogFormatter extends LogFormatter {
 		$params[6] = $params[6] ? $yes : $no;
 
 		$git = $params[7] ?? [];
-		// @phan-suppress-next-line SecurityCheck-DoubleEscaped
 		$gitLink = Html::element( 'a', [ 'href' => $git['url'] ?? '', 'title' => $git['sha1'] ?? '' ], 'git' );
 		$params[7] = Message::rawParam( $gitLink );
 		return $params;
