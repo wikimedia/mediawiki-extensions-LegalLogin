@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"فیروز"
+			"فیروز",
+			"محک"
 		]
 	},
 	"legallogin-policy-checkbox-label": "من $1 ره بخونسمه و قبول هاکردمه",
@@ -9,7 +10,7 @@
 	"legallogin-true-answer-label": "دِرِس",
 	"legallogin-false-answer-label": "نادِرِس",
 	"legallogin-submit": "ارسال",
-	"legallogin-close": "دَوِستِن",
+	"legallogin-close": "پیتی",
 	"legallogin-yes": "اره",
 	"legallogin-no": "نا"
 }
