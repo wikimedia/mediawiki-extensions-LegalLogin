@@ -1,8 +1,38 @@
 {
 	"@metadata": {
 		"authors": [
-			"محمد أحمد عبد الفتاح"
+			"محمد أحمد عبد الفتاح",
+			"Alshamiri1"
 		]
 	},
-	"legallogin-close": "أغلق"
+	"log-name-legallogin": "تسجيل الدخول القانوني",
+	"log-description-legallogin": "هذا سجل بسياسات تسجيل الدخول القانوني المقبولة والأسئلة التي تمت الإجابة عنها.",
+	"legallogin": "تسجيل الدخول القانوني",
+	"legallogin-desc": "يتطلب هذا الامتداد قبول السياسات القانونية والإجابة الصحيحة على أسئلة الاختبار أثناء إنشاء الحساب وتسجيل الدخول",
+	"legallogin-policy-checkbox-label": "لقد قرأت وأوافق على $1",
+	"legallogin-policy-text-caption": "(مراجعة $1 ؛ $2 )",
+	"legallogin-policy-full-page-view": "انقر هنا للقراءة في عرض صفحة كاملة",
+	"legallogin-true-answer-label": "صحيح",
+	"legallogin-false-answer-label": "خطأ",
+	"legallogin-extra-fields-required-for-account-creation": "مطلوب حقول إضافية لتسجيل الدخول القانوني لإنشاء الحساب",
+	"legallogin-extra-fields-were-changed": "تم تغيير حقول تسجيل الدخول القانونية",
+	"legallogin-policy-must-be-read": "يجب عليك قراءة سياسة \" $1 \" قبل الموافقة",
+	"legallogin-policy-must-be-accepted": "للعملية المطلوبة ، يجب عليك قبول سياسة \" $1 \"",
+	"legallogin-incorrect-answer-on-question": "إجابتك على السؤال \" $1 \" غير صحيحة",
+	"legallogin-logentry-policy": "معرف $1 : $2 ، مطلوب: $3 ، تمرير: $4 ، فتح: $5 ، مقبول: $6",
+	"legallogin-logentry-login": "معرف $1 : $2 ، تاريخ الفتح: $3",
+	"legallogin-logentry-question": "إجابة $1 : $2",
+	"legallogin-complete-checkboxes": "أكمل مربعات الاختيار بشكل صحيح للمتابعة",
+	"legallogin-submit": "إرسال",
+	"legallogin-close": "أغلق",
+	"legallogin-yes": "نعم",
+	"legallogin-no": "لا",
+	"legallogin-js-should-be-enabled": "يتطلب الموقع تفعيل جافا سكريبت",
+	"legallogin-policies-must-be-accepted": "يجب عليك قبول سياسات تسجيل الدخول القانونية",
+	"logentry-legallogin-accept": "قبل المستخدم $1 {{PLURAL:$4| السياسة | السياسات}} $5 والإجابة {{PLURAL:$6| سؤال | أسئلة}} $7 . قام المستخدم بتسجيل الدخول $8 {{PLURAL:$8| time | times}} منذ آخر قبول ، آخر تسجيل دخول كان $9 . $1 .",
+	"logentry-legallogin-login": "سجّل المستخدم $1 دخوله $5 {{PLURAL:$5| time | times}} منذ آخر قبول ، بسعر $6 للقبول: $7 . $4 . $8 .",
+	"right-legallogin-view-log": "عرض سياسات تسجيل الدخول القانونية المقبولة",
+	"action-legallogin-view-log": "عرض سياسات تسجيل الدخول القانونية المقبولة",
+	"right-legallogin-bypass": "تجاوز التحقق من المجموعات المسموح لها بالتجاوز",
+	"action-legallogin-bypass": "تجاوز التحقق من المجموعات المسموح لها بالتجاوز"
 }
