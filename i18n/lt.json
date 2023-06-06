@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nokeoo"
+		]
+	},
+	"legallogin-desc": "Šis plėtinys reikalauja priimti teisines politikas ir teisingai atsakyti į testo klausimus kuriant paskyrą ir prisijungiant",
+	"legallogin-policy-checkbox-label": "Perskaičiau ir sutinku su $1",
+	"legallogin-policy-text-caption": "(Versija $1; $2)",
+	"legallogin-policy-full-page-view": "Paspauskite čia, kad skaitytumėte pilno puslapio režimu",
+	"legallogin-true-answer-label": "Tiesa",
+	"legallogin-false-answer-label": "Netiesa",
+	"legallogin-policy-must-be-read": "Turite perskaityti „$1“ politiką prieš priimdami",
+	"legallogin-policy-must-be-accepted": "Prašomai operacijai turite priimti „$1“ politiką",
+	"legallogin-incorrect-answer-on-question": "Jūsų atsakymas į klausimą „$1“ neteisingas",
+	"legallogin-logentry-policy": "$1 id: $2, būtina: $3, slinko: $4, atidarė: $5, priėmė: $6",
+	"legallogin-logentry-login": "$1 id: $2, atidaryta: $3",
+	"legallogin-logentry-question": "$1 atsakymas: $2",
+	"legallogin-complete-checkboxes": "Teisingai užpildykite žymėjimus, kad tęstumėte",
+	"legallogin-submit": "Pateikti",
+	"legallogin-close": "Uždaryti",
+	"legallogin-yes": "Taip",
+	"legallogin-no": "Ne",
+	"legallogin-js-should-be-enabled": "Puslapiui reikalingas įjungtas JavaScript",
+	"logentry-legallogin-accept": "Naudotojas $1 priėmė {{PLURAL:$4|politiką|politikas}} $5 ir atsakė {{PLURAL:$6|klausimą|klausimus}} $7. Naudotojas prisijungė $8 {{PLURAL:$8|kartą|kartus}} nuo paskutinio priėmimo, paskutinis prisijungimas $9. $10.",
+	"logentry-legallogin-login": "Naudotojas $1 prisijungė $5 {{PLURAL:$5|kartą|kartus}} nuo paskutinio priėmimo $6, priėmimas buvo būtinas: $7. $4. $8."
+}
