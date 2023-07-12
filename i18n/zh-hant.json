@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"log-name-legallogin": "Legal Login",
+	"log-description-legallogin": "這是已接受的 Legal Login 方針與已回答過問題的日誌。",
+	"legallogin": "LegalLogin",
+	"legallogin-desc": "此擴充功能需要在建立帳號和登入過程中接受合法方針並正確回答測試問題",
+	"legallogin-policy-checkbox-label": "我已閱讀過並接受$1",
+	"legallogin-policy-text-caption": "（修訂 $1，$2）",
+	"legallogin-policy-full-page-view": "點擊此處以全頁模式閱讀",
+	"legallogin-true-answer-label": "真",
+	"legallogin-false-answer-label": "非",
+	"legallogin-extra-fields-required-for-account-creation": "建立帳號所需的 Legal Login 額外欄位",
+	"legallogin-extra-fields-were-changed": "Legal Login 欄位已變動",
+	"legallogin-policy-must-be-read": "在接受之前您必須閱讀「$1」方針",
+	"legallogin-policy-must-be-accepted": "對於請求的操作，您必須接受「$1」方針",
+	"legallogin-incorrect-answer-on-question": "您對問題「$1」的回答不正確",
+	"legallogin-logentry-policy": "$1 ID：$2，需求方針：$3，捲動方針至尾端：$4，全螢幕開啟：$5，接受：$6",
+	"legallogin-logentry-login": "$1 ID：$2，開啟方針：$3",
+	"legallogin-logentry-question": "$1回答：$2",
+	"legallogin-complete-checkboxes": "正確勾選核取方框以繼續",
+	"legallogin-submit": "提交",
+	"legallogin-close": "關閉",
+	"legallogin-yes": "是",
+	"legallogin-no": "否",
+	"legallogin-js-should-be-enabled": "網站需要啟用 JavaScript",
+	"legallogin-policies-must-be-accepted": "您需接受 Legal Login 方針",
+	"logentry-legallogin-accept": "使用者$1已接受{{PLURAL:$4|方針}}$5，並回答了{{PLURAL:$6|問題}}$7。使用者自上次接受方針以來已登入 $8 {{PLURAL:$8|次}}，上一次登入時間為：$9。$10。",
+	"logentry-legallogin-login": "使用者$1自上次接受方針以來已登入 $5 {{PLURAL:$5|次}}，於 $6 所需要的接受：$7。$4。$8 。",
+	"right-legallogin-view-log": "查看接受的 Legal Login 方針",
+	"action-legallogin-view-log": "查看接受的 Legal Login 方針",
+	"right-legallogin-bypass": "繞過允許繞過群組的檢查",
+	"action-legallogin-bypass": "繞過允許繞過群組的檢查"
+}
