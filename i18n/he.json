@@ -6,10 +6,28 @@
 			"Neriah"
 		]
 	},
-	"legallogin-true-answer-label": "נכון",
-	"legallogin-false-answer-label": "שגוי",
+	"log-name-legallogin": "כניסה משפטית",
+	"log-description-legallogin": "זהו יומן של הפעלת מדיניות כניסה משפטית ושאלות שנענו.",
+	"legallogin": "כניסה משפטית",
+	"legallogin-desc": "ההרחבה הזאת דורשת את קבלת המדיניות המשפטית ותשובה נכונה לשאלות הבדיקה בעת יצירת חשבון וכניסה אליו",
+	"legallogin-policy-checkbox-label": "קראתי וקיבלתי את המדיניות $1",
+	"legallogin-policy-text-caption": "(גרסה $1; $2)",
+	"legallogin-policy-full-page-view": "נא ללחוץ כאן כדי לקרוא בתצוגת דף מלא",
+	"legallogin-true-answer-label": "כן",
+	"legallogin-false-answer-label": "לא",
+	"legallogin-extra-fields-required-for-account-creation": "נדרשים שדות נוספים של כניסה משפטית כדי ליצור חשבון",
+	"legallogin-extra-fields-were-changed": "שדות הכניסה המשפטית השתנו",
+	"legallogin-policy-must-be-read": "יש לקרוא את המדיניות \"$1\" לפני קבלה",
+	"legallogin-policy-must-be-accepted": "עבור הפעולה המבוקשת יש לקבל את המדיניות \"$1\"",
+	"legallogin-incorrect-answer-on-question": "התשובה שלך לשאלה \"$1\" לא נכונה",
+	"legallogin-logentry-policy": "$1 מזהה: $2, נדרש: $3, נגלל: $4, נפתח: $5, התקבל: $6",
+	"legallogin-logentry-login": "$1 מזהה: $2, נפתח: $3",
+	"legallogin-logentry-question": "תשובה לשאלה $1‏: $2",
+	"legallogin-complete-checkboxes": "יש למלא נכון את תיבות הסימון כדי להמשיך",
 	"legallogin-submit": "שליחה",
 	"legallogin-close": "סגירה",
 	"legallogin-yes": "כן",
-	"legallogin-no": "לא"
+	"legallogin-no": "לא",
+	"legallogin-js-should-be-enabled": "האתר דורש שתמיכה ב־JavaScript תהיה מופעלת",
+	"legallogin-policies-must-be-accepted": "חובה לקבל את מדיניות הכניסה המשפטית"
 }
