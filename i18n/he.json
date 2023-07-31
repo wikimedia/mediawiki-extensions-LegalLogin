@@ -29,5 +29,11 @@
 	"legallogin-yes": "כן",
 	"legallogin-no": "לא",
 	"legallogin-js-should-be-enabled": "האתר דורש שתמיכה ב־JavaScript תהיה מופעלת",
-	"legallogin-policies-must-be-accepted": "חובה לקבל את מדיניות הכניסה המשפטית"
+	"legallogin-policies-must-be-accepted": "חובה לקבל את מדיניות הכניסה המשפטית",
+	"logentry-legallogin-accept": "המשתמש $1 קיבל את {{PLURAL:$4|דף|דפי}} מדיניות $5 וענה {{PLURAL:$6|לשאלה|לשאלות}} $7. המשתמש נכנס לחשבון {{PLURAL:$8|פעם אחת|פעמיים|$8 פעמים}} מאז הקבלה האחרונה, הכניסה האחרונה הייתה ב־$9. $10.",
+	"logentry-legallogin-login": "המשתמש $1 נכנס לחשבון {{PLURAL:$5|פעם אחת|פעמיים|$5 פעמים}} מאז הקבלה האחרונה, ב־$6 נדרה קבלה: $7. $4. $8",
+	"right-legallogin-view-log": "צפייה בדפי מדיניות הכניסה המשפטית שהתקבלו",
+	"action-legallogin-view-log": "לצפות בדפי מדיניות הכניסה המשפטית שהתקבלו",
+	"right-legallogin-bypass": "עקיפת הבדיקה עבור קבוצות שמותר להן לעקוף",
+	"action-legallogin-bypass": "לעקוף את הבדיקה עבור קבוצות שמותר להן לעקוף"
 }
