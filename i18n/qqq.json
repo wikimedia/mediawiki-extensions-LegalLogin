@@ -4,7 +4,8 @@
 			"Hamilton Abreu",
 			"Robby",
 			"Umherirrender",
-			"Veikk0.ma"
+			"Veikk0.ma",
+			"Amire80"
 		]
 	},
 	"log-name-legallogin": "Name of log that appears on [[Special:Log]].",
@@ -33,8 +34,8 @@
 	"legallogin-policies-must-be-accepted": "Error message when user didn't accept LegalLogin polices",
 	"legallogin-debug-acceptance": "{{optional}}\nInformation about accepted LegalLogin polices in log file.\n\nParameters:\n* $1 - user id\n* $2 - user name\n* $3 - string contains accepted polices and answered questions",
 	"legallogin-debug-login": "{{optional}}\nInformation about opened LegalLogin polices in log file.\n\nParameters:\n* $1 - user id\n* $2 - user name\n* $3 - information about LegalLogin state",
-	"logentry-legallogin-accept": "Message about accepted LegalLogin polices in Special:Log\n\nParameters:\n* $1 - link to the user page\n* $4 - number of accepted policies\n* $5 - information about accepted policies\n* $6 - number of answered questions\n* $7 - information about answered questions\n* $8 - number of user logins since last acceptance\n* $9 - date of last login of the user\n* $10 - link to the git repo of the LegalLogin extension",
-	"logentry-legallogin-login": "Message about opened LegalLogin polices in Special:Log\n\nParameters:\n* $1 - link to the user page\n* $4 - information about opened LegalLogin polices\n* $5 - number of login since last acceptance\n* $6 - datetime of the message\n* $7 - was acceptance required or not\n* $8 - link to the git repo of the LegalLogin extension",
+	"logentry-legallogin-accept": "{{logentry}}\nMessage about accepted LegalLogin polices in Special:Log\n\nParameters:\n* $4 - number of accepted policies\n* $5 - information about accepted policies\n* $6 - number of answered questions\n* $7 - information about answered questions\n* $8 - number of user logins since last acceptance\n* $9 - date of last login of the user\n* $10 - link to the git repo of the LegalLogin extension",
+	"logentry-legallogin-login": "{{logentry}}\nMessage about opened LegalLogin polices in Special:Log\n\nParameters:\n* $4 - information about opened LegalLogin polices\n* $5 - number of login since last acceptance\n* $6 - datetime of the message\n* $7 - was acceptance required or not\n* $8 - link to the git repo of the LegalLogin extension",
 	"right-legallogin-view-log": "{{doc-right|legallogin-view-log}}",
 	"action-legallogin-view-log": "{{doc-action|legallogin-view-log}}",
 	"right-legallogin-bypass": "{{doc-right|legallogin-bypass}}",
