@@ -22,6 +22,6 @@
 	"legallogin-yes": "Taip",
 	"legallogin-no": "Ne",
 	"legallogin-js-should-be-enabled": "Puslapiui reikalingas įjungtas JavaScript",
-	"logentry-legallogin-accept": "Naudotojas $1 priėmė {{PLURAL:$4|politiką|politikas}} $5 ir atsakė {{PLURAL:$6|klausimą|klausimus}} $7. Naudotojas prisijungė $8 {{PLURAL:$8|kartą|kartus}} nuo paskutinio priėmimo, paskutinis prisijungimas $9. $10.",
-	"logentry-legallogin-login": "Naudotojas $1 prisijungė $5 {{PLURAL:$5|kartą|kartus}} nuo paskutinio priėmimo $6, priėmimas buvo būtinas: $7. $4. $8."
+	"logentry-legallogin-accept": "{{GENDER:$2|Naudotojas|Naudotoja}} $1 priėmė {{PLURAL:$4|politiką|politikas}} $5 ir atsakė į {{PLURAL:$6|klausimą|klausimus}} $7. {{GENDER:$2|Naudotojas|Naudotoja}} prisijungė $8 {{PLURAL:$8|kartą|kartus}} nuo paskutinio priėmimo, paskutinis prisijungimas $9. $10.",
+	"logentry-legallogin-login": "{{GENDER:$2|Naudotojas|Naudotoja}} $1 prisijungė $5 {{PLURAL:$5|kartą|kartus}} nuo paskutinio priėmimo $6, priėmimas buvo būtinas: $7. $4. $8."
 }
