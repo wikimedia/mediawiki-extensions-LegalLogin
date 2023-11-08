@@ -1,11 +1,38 @@
 {
 	"@metadata": {
 		"authors": [
+			"McDutchie",
 			"Romaine"
 		]
 	},
+	"log-name-legallogin": "Juridisch aanmelden",
+	"log-description-legallogin": "In dit logboek wordt het accepteren van het beleid m.b.t. juridisch inloggen bijgehouden, alsmede de antwoorden op de bijbehorende vragen.",
+	"legallogin": "Juridisch aanmelden",
+	"legallogin-desc": "Deze uitbreiding vereist aanvaarding van juridisch beleid en juiste antwoorden op testvragen tijdens het aanmaken van een account en het zich erbij aanmelden",
+	"legallogin-policy-checkbox-label": "Ik heb het $1 gelezen en geaccepteerd",
+	"legallogin-policy-text-caption": "(Versie $1; $2)",
+	"legallogin-policy-full-page-view": "Klik hier om het in de volledige paginaweergave te lezen",
 	"legallogin-true-answer-label": "Waar",
 	"legallogin-false-answer-label": "Onwaar",
+	"legallogin-extra-fields-required-for-account-creation": "Juridisch aanmelden: extra velden vereist voor het aanmaken van een account",
+	"legallogin-extra-fields-were-changed": "Juridisch aanmelden: er zijn velden gewijzigd",
+	"legallogin-policy-must-be-read": "U moet het beleid ‘$1’ lezen voordat u het accepteert",
+	"legallogin-policy-must-be-accepted": "Voor de gevraagde operatie moet u het beleid ‘$1’ accepteren",
+	"legallogin-incorrect-answer-on-question": "Uw antwoord op de vraag ‘$1’ is onjuist",
+	"legallogin-logentry-policy": "$1 ID: $2, vereist: $3, gescrold: $4, geopend: $5, geaccepteerd: $6",
+	"legallogin-logentry-login": "$1 ID: $2, geopend: $3",
+	"legallogin-logentry-question": "$1 antwoord: $2",
+	"legallogin-complete-checkboxes": "Vul de selectievakjes correct in om door te gaan",
+	"legallogin-submit": "Verzenden",
+	"legallogin-close": "Sluiten",
 	"legallogin-yes": "Ja",
-	"legallogin-no": "Nee"
+	"legallogin-no": "Nee",
+	"legallogin-js-should-be-enabled": "Voor de site moet JavaScript zijn ingeschakeld",
+	"legallogin-policies-must-be-accepted": "U dient het beleid m.b.t. ‘Juridisch aanmelden’ te accepteren",
+	"logentry-legallogin-accept": "De {{GENDER:$2|gebruiker}} $1 heeft het {{PLURAL:$4|beleid}} $5 geaccepteerd en heeft de {{PLURAL:$6|vraag|vragen}} $7 beantwoord. De gebruiker heeft zich sinds de laatste acceptatie $8 keer aangemeld; de laatste aanmelding was op $9. $10.",
+	"logentry-legallogin-login": "De {{GENDER:$2|gebruiker}} $1 heeft zich sinds de laatste acceptatie $5 {{PLURAL:$5|keer}} aangemeld. Op $6 werd acceptatie vereist: $7. $4. $8.",
+	"right-legallogin-view-log": "Het geaccepteerde ‘Juridisch aanmelden’-beleid bekijken",
+	"action-legallogin-view-log": "het geaccepteerde ‘Juridisch aanmelden’-beleid te bekijken",
+	"right-legallogin-bypass": "De controle omzeilen voor groepen die mogen omzeilen",
+	"action-legallogin-bypass": "de controle te omzeilen voor groepen die mogen omzeilen"
 }
