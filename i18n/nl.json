@@ -6,7 +6,7 @@
 		]
 	},
 	"log-name-legallogin": "Juridisch aanmelden",
-	"log-description-legallogin": "In dit logboek wordt het accepteren van het beleid m.b.t. juridisch inloggen bijgehouden, alsmede de antwoorden op de bijbehorende vragen.",
+	"log-description-legallogin": "In dit logboek wordt het accepteren van het beleid m.b.t. juridisch aanmelden bijgehouden, alsmede de antwoorden op de bijbehorende vragen.",
 	"legallogin": "Juridisch aanmelden",
 	"legallogin-desc": "Deze uitbreiding vereist aanvaarding van juridisch beleid en juiste antwoorden op testvragen tijdens het aanmaken van een account en het zich erbij aanmelden",
 	"legallogin-policy-checkbox-label": "Ik heb het $1 gelezen en geaccepteerd",
