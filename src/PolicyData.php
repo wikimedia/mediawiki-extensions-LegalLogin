@@ -358,8 +358,7 @@ class PolicyData {
 		}
 
 		$whitelistReadRegexp = self::getConfigVariable( 'WhitelistReadRegexp' );
-		if ( !$whitelisted && is_array( $whitelistReadRegexp )
-			&& !empty( $whitelistReadRegexp ) ) {
+		if ( !$whitelisted && is_array( $whitelistReadRegexp ) && $whitelistReadRegexp ) {
 			$name = $title->getPrefixedText();
 			// Check for regex whitelisting
 			foreach ( $whitelistReadRegexp as $listItem ) {
