@@ -108,7 +108,7 @@ class PolicyData {
 
 	public static function resetCurrentPoliciesCache() {
 		/** @var BagOStuff $cache */
-		list( $cache, $key ) = self::getCache( 'policies' );
+		[ $cache, $key ] = self::getCache( 'policies' );
 		$cache->delete( $key );
 	}
 
@@ -121,7 +121,7 @@ class PolicyData {
 		$policies = self::getConfigVariable( 'LegalLoginPolicies' );
 		$policiesMD5 = md5( serialize( $policies ) );
 		/** @var BagOStuff $cache */
-		list( $cache, $key ) = self::getCache( 'policies' );
+		[ $cache, $key ] = self::getCache( 'policies' );
 		$return = $cache->get( $key );
 		if ( $return !== false && ( $return['checksum'] ?? null ) === $policiesMD5 ) {
 			unset( $return['checksum'] );
@@ -264,7 +264,7 @@ class PolicyData {
 	 */
 	private static function setAcceptedCache( int $userId, array $accepted ) {
 		/** @var BagOStuff $cache */
-		list( $cache, $key ) = self::getCache( 'accepted', $userId );
+		[ $cache, $key ] = self::getCache( 'accepted', $userId );
 		$cache->set( $key, $accepted );
 	}
 
@@ -275,7 +275,7 @@ class PolicyData {
 	 */
 	private static function getAcceptedCache( int $userId ): ?array {
 		/** @var BagOStuff $cache */
-		list( $cache, $key ) = self::getCache( 'accepted', $userId );
+		[ $cache, $key ] = self::getCache( 'accepted', $userId );
 		$return = $cache->get( $key );
 		if ( $return === false ) {
 			return null;
@@ -289,7 +289,7 @@ class PolicyData {
 	 */
 	private static function resetAcceptedCache( int $userId ) {
 		/** @var BagOStuff $cache */
-		list( $cache, $key ) = self::getCache( 'accepted', $userId );
+		[ $cache, $key ] = self::getCache( 'accepted', $userId );
 		$cache->delete( $key );
 	}
 
@@ -301,7 +301,7 @@ class PolicyData {
 	private static function isSameSpecialPage( string $name, LinkTarget $page ): bool {
 		$specialPageFactory = MediaWikiServices::getInstance()->getSpecialPageFactory();
 		if ( $page->getNamespace() == NS_SPECIAL ) {
-			list( $thisName ) = $specialPageFactory->resolveAlias( $page->getDBkey() );
+			[ $thisName ] = $specialPageFactory->resolveAlias( $page->getDBkey() );
 			if ( $name == $thisName ) {
 				return true;
 			}
@@ -347,7 +347,7 @@ class PolicyData {
 				# If it's a special page, ditch the subpage bit and check again
 				$name = $title->getDBkey();
 				$specialPageFactory = MediaWikiServices::getInstance()->getSpecialPageFactory();
-				list( $name ) = $specialPageFactory->resolveAlias( $name );
+				[ $name ] = $specialPageFactory->resolveAlias( $name );
 				if ( $name ) {
 					$pure = SpecialPage::getTitleFor( $name )->getPrefixedText();
 					if ( in_array( $pure, $whiteListRead, true ) ) {
@@ -403,7 +403,7 @@ class PolicyData {
 		$policies = self::getConfigVariable( 'LegalLoginPolicies' );
 		foreach ( $policies as $key => $value ) {
 			$title = Title::makeTitle( NS_MEDIAWIKI, $key );
-			list( $policyId, $policyRevId, $policyText, $timestamp ) = self::getPageData( $title );
+			[ $policyId, $policyRevId, $policyText, $timestamp ] = self::getPageData( $title );
 
 			$policyCaption = $key;
 			if ( !empty( $value['captionmsg'] ) ) {
@@ -446,7 +446,7 @@ class PolicyData {
 		$questions = self::getConfigVariable( 'LegalLoginQuestions' );
 		foreach ( $questions as $key => $value ) {
 			$title = Title::makeTitle( NS_MEDIAWIKI, $key );
-			list( $questionId, $questionRevId, $questionText ) = self::getPageData( $title );
+			[ $questionId, $questionRevId, $questionText ] = self::getPageData( $title );
 			$return[] = [
 				'type' => 'question',
 				'name' => $title->getDBkey(),

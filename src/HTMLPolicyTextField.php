@@ -36,7 +36,7 @@ class HTMLPolicyTextField extends HTMLFormField {
 		$return = Html::rawElement(
 			'div',
 			[ 'class' => 'legallogin-policy-text-caption' ],
-			implode( ' ',  $captionHtml )
+			implode( ' ', $captionHtml )
 		);
 
 		$return .= $this->makeHiddenField( 'policyId', $value['policyId'] );
@@ -86,7 +86,7 @@ class HTMLPolicyTextField extends HTMLFormField {
 			'parent' => $this->mParent
 		];
 		$fpvInputClicked = new HTMLHiddenField( $params );
-		list( $name, $v, $params ) = $fpvInputClicked->getHiddenFieldData( $value );
+		[ $name, $v, $params ] = $fpvInputClicked->getHiddenFieldData( $value );
 		return Html::hidden( $name, $v, $params ) . "\n";
 	}
 

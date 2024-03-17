@@ -78,20 +78,20 @@ class PolicyField extends HTMLFormField {
 	 */
 	public function getInputHTML( $value ) {
 		$fieldsHtml = '';
-		list( $policyFields, $policyCheckboxes, $questionFields ) = $this->getFields( $value );
+		[ $policyFields, $policyCheckboxes, $questionFields ] = $this->getFields( $value );
 		foreach ( $policyFields as $pf ) {
 			/** @var HTMLPolicyTextField $pfElement */
-			list( $pfElement, $pfValue ) = $pf;
+			[ $pfElement, $pfValue ] = $pf;
 			$fieldsHtml .= $pfElement->getInputHTML( $pfValue );
 		}
 		foreach ( $policyCheckboxes as $ch ) {
 			/** @var HTMLCheckField $checkbox */
-			list( $checkbox, $checkboxValue ) = $ch;
+			[ $checkbox, $checkboxValue ] = $ch;
 			$fieldsHtml .= $checkbox->getInputHTML( $checkboxValue );
 		}
 		foreach ( $questionFields as $qf ) {
 			/** @var HTMLPolicyQuestionField $checkbox */
-			list( $qfElement, $qfValue ) = $qf;
+			[ $qfElement, $qfValue ] = $qf;
 			$fieldsHtml .= $qfElement->getInputHTML( $qfValue );
 		}
 

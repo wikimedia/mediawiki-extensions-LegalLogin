@@ -42,7 +42,7 @@ class PolicyLinks extends HTMLFormField {
 		$policyFields = $this->getFields( $value );
 		foreach ( $policyFields as $pf ) {
 			/** @var HTMLPolicyLinkField $pfElement */
-			list( $pfElement, $pfValue ) = $pf;
+			[ $pfElement, $pfValue ] = $pf;
 			$fieldsHtml .= $pfElement->getInputHTML( $pfValue );
 		}
 

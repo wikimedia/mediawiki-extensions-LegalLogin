@@ -51,7 +51,7 @@ class HTMLPolicyLinkField extends HTMLFormField {
 			'parent' => $this->mParent
 		];
 		$fpvInputClicked = new HTMLHiddenField( $params );
-		list( $name, $v, $params ) = $fpvInputClicked->getHiddenFieldData( $value );
+		[ $name, $v, $params ] = $fpvInputClicked->getHiddenFieldData( $value );
 		return Html::hidden( $name, $v, $params ) . "\n";
 	}
 

@@ -21,7 +21,7 @@ class HTMLPolicyQuestionField extends HTMLRadioField {
 			'default' => $this->mParams['revId'],
 			'parent' => $this->mParent
 		] );
-		list( $name, $v, $params ) = $revField->getHiddenFieldData( $value );
+		[ $name, $v, $params ] = $revField->getHiddenFieldData( $value );
 		$revFieldHtml = Html::hidden( $name, $v, $params ) . "\n";
 		$attr = [
 			'class' => 'legallogin-policy-question',
