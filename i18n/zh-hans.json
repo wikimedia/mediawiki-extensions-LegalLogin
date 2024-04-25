@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			")8"
+			")8",
+			"沈澄心"
 		]
 	},
+	"log-name-legallogin": "Legal Login",
 	"legallogin-submit": "提交",
 	"legallogin-close": "关闭",
 	"legallogin-yes": "是",
