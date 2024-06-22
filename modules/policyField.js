@@ -33,7 +33,7 @@
 
 			mw.hook( 'wikipage.content' ).fire( $message );
 
-			messageWindow = manager.openWindow( 'message', $.extend( {
+			messageWindow = manager.openWindow( 'message', Object.assign( {
 				message: $message
 			}, {
 				title: $element.parent().children( 'span' ).text(),
