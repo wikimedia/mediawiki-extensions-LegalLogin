@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Alshamiri1",
-			"محمد أحمد عبد الفتاح"
+			"محمد أحمد عبد الفتاح",
+			"Meno25"
 		]
 	},
 	"log-name-legallogin": "تسجيل الدخول القانوني",
@@ -29,8 +30,8 @@
 	"legallogin-no": "لا",
 	"legallogin-js-should-be-enabled": "يتطلب الموقع تفعيل جافا سكريبت",
 	"legallogin-policies-must-be-accepted": "يجب عليك قبول سياسات تسجيل الدخول القانونية",
-	"logentry-legallogin-accept": "قبل المستخدم $1 {{PLURAL:$4| السياسة | السياسات}} $5 والإجابة {{PLURAL:$6| سؤال | أسئلة}} $7 . قام المستخدم بتسجيل الدخول $8 {{PLURAL:$8| time | times}} منذ آخر قبول ، آخر تسجيل دخول كان $9 . $1 .",
-	"logentry-legallogin-login": "سجّل المستخدم $1 دخوله $5 {{PLURAL:$5| time | times}} منذ آخر قبول ، بسعر $6 للقبول: $7 . $4 . $8 .",
+	"logentry-legallogin-accept": "{{GENDER:$2|User}} $1 تم قبول {{PLURAL:$4|سياسة|سياسات}} $5 وأجاب {{PLURAL:$6|سؤال|أسئلة}} $7. قام {{GENDER:$2|مستخدم}} بتسجيل الدخول $8 {{PLURAL:$8|مرة|مرات}} منذ آخر قبول، وكان آخر تسجيل دخول $9. $10.",
+	"logentry-legallogin-login": "{{GENDER:$2|مستخدم}} $1 سجل الدخول $5 {{PLURAL:$5|مرة|مرات}} منذ القبول الأخير، في $6 كان القبول مطلوبا: $7. $4. $8.",
 	"right-legallogin-view-log": "عرض سياسات تسجيل الدخول القانونية المقبولة",
 	"action-legallogin-view-log": "عرض سياسات تسجيل الدخول القانونية المقبولة",
 	"right-legallogin-bypass": "تجاوز التحقق من المجموعات المسموح لها بالتجاوز",
