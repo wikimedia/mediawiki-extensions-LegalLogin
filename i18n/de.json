@@ -7,14 +7,26 @@
 			"Zabe"
 		]
 	},
+	"legallogin-policy-checkbox-label": "Ich habe die $1 gelesen und akzeptiere sie.",
+	"legallogin-policy-text-caption": "(Vrtsion $1; $2)",
 	"legallogin-true-answer-label": "Wahr",
 	"legallogin-false-answer-label": "Falsch",
+	"legallogin-policy-must-be-accepted": "Für den angeforderten Vorgang musst du die Richtlinie „$1“ akzeptieren.",
 	"legallogin-incorrect-answer-on-question": "Deine Antwort auf die Frage ‚$1‘ ist falsch",
+	"legallogin-logentry-policy": "$1 ID: $2, erforderlich: $3, gescrollt: $4, geöffnet: $5, akzeptiert: $6",
+	"legallogin-logentry-login": "$1 ID: $2, geöffnet: $3",
+	"legallogin-logentry-question": "$1 Antwort: $2",
+	"legallogin-complete-checkboxes": "Fülle die Kontrollkästchen korrekt aus, um fortzufahren",
 	"legallogin-submit": "Senden",
 	"legallogin-close": "Schließen",
 	"legallogin-yes": "Ja",
 	"legallogin-no": "Nein",
 	"legallogin-js-should-be-enabled": "Für diese Seite muss JavaScript aktiviert sein",
+	"legallogin-policy-apirequest-label": "Ich habe die Richtlinie „$1“ gelesen und akzeptiere sie",
+	"legallogin-question-apirequest-label": "Beantworte diese Frage: $1",
+	"legallogin-question-apirequest-help": "Sicherheitsfrage, die du zum Anmelden korrekt beantworten musst",
+	"logentry-legallogin-accept": "{{GENDER:$2|Benutzer|Benutzerin}} $1 hat die {{PLURAL:$4|Richtlinie|Richtlinien}} $5 akzeptiert und {{PLURAL:$6|Frage|Fragen}} $7 beantwortet. {{GENDER:$2|Benutzer|Benutzerin}} hat sich seit der letzten Annahme {{PLURAL:$8|einmal|$8-mal}} angemeldet, die letzte Anmeldung war $9. $10.",
+	"logentry-legallogin-login": "{{GENDER:$2|Benutzer|Benutzerin}} $1 hat sich  {{PLURAL:$5|einmail|$5-mal}} seit der letzten Annahme angemeldet, um $6 war eine Annahme erforderlich: $7. $4. $8.",
 	"right-legallogin-bypass": "Umgehe die Prüfung der Gruppen, welche erlaubt sind zu umgehen",
 	"action-legallogin-bypass": "Umgehe die Prüfung der Gruppe, welche erlaubt sind zu umgehen"
 }

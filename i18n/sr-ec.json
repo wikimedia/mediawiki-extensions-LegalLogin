@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Milicevic01"
+		]
+	},
+	"legallogin-policy-apirequest-label": "Прочитао сам и прихватио „$1” политику",
+	"legallogin-question-apirequest-label": "Одговорите на ово питање: $1",
+	"legallogin-question-apirequest-help": "Сигурносно питање на које морате тачно одговорити за пријаву"
+}

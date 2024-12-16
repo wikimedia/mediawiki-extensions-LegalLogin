@@ -4,6 +4,7 @@
 			"DreZhsh",
 			"Gomoko",
 			"JenyxGym",
+			"Mahabarata",
 			"Verdy p"
 		]
 	},
@@ -33,6 +34,10 @@
 	"legallogin-policies-must-be-accepted": "Vous devez accepter les conditions de connexion légale",
 	"legallogin-debug-acceptance": ";Acceptance;$1;$2;$3",
 	"legallogin-debug-login": ";Login;$1;$2;$3",
+	"legallogin-policy-apirequest-label": "J'ai lu et j'accepte la politique « $1 »",
+	"legallogin-policy-apirequest-help": "Case à cocher indiquant que vous avez accepté les conditions",
+	"legallogin-question-apirequest-label": "Répondez à cette question : $1",
+	"legallogin-question-apirequest-help": "Question de sécurité à laquelle vous devez répondre correctement pour vous connecter",
 	"logentry-legallogin-accept": "L’{{GENDER:$2|utilisateur|utilisatrice}} $1 a accepté l{{PLURAL:$4|a|es}} politique{{PLURAL:$4||s}} $5 et a répondu {{PLURAL:$6|à une|aux}} question{{PLURAL:$6||s}} $7. L’{{GENDER:$2|utilisateur s’est connecté|utilisatrice s’est connectée}} $8 fois{{PLURAL:$8|}} depuis la dernière acceptation, sa dernière connexion était le $9. $10.",
 	"logentry-legallogin-login": "L’{{GENDER:$2|utilisateur $1 s’est connecté|utilisatrice $1 s’est connectée}} $5 fois{{PLURAL:$5|}} depuis la dernière acceptation, à $6 l’acceptation était nécessaire : $7. $4. $8.",
 	"right-legallogin-view-log": "Afficher les politiques de connexion légale acceptées",

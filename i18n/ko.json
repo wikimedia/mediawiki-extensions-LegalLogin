@@ -15,5 +15,8 @@
 	"legallogin-close": "닫기",
 	"legallogin-yes": "예",
 	"legallogin-no": "아니오",
-	"legallogin-js-should-be-enabled": "사이트에서 자바스크립트 활성화는 필수입니다"
+	"legallogin-js-should-be-enabled": "사이트에서 자바스크립트 활성화는 필수입니다",
+	"legallogin-policy-apirequest-label": "'$1' 정책을 읽었고 동의합니다",
+	"legallogin-question-apirequest-label": "이 질문에 답하세요: $1",
+	"legallogin-question-apirequest-help": "로그인하려면 올바르게 답해야 하는 보안 질문"
 }

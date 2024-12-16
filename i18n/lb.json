@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Les Meloures",
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
 	"log-name-legallogin": "Legale Login",
@@ -16,5 +17,7 @@
 	"legallogin-close": "Zoumaachen",
 	"legallogin-yes": "Jo",
 	"legallogin-no": "Neen",
-	"legallogin-js-should-be-enabled": "Fir de Site muss JavaScript aktivéiert sinn"
+	"legallogin-js-should-be-enabled": "Fir de Site muss JavaScript aktivéiert sinn",
+	"legallogin-question-apirequest-label": "Äntwert op dës Fro: $1",
+	"legallogin-question-apirequest-help": "Sécherheetsfro, déi Dir richteg beäntwere musst fir Iech anzeloggen"
 }
