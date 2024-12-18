@@ -17,5 +17,6 @@
 	"legallogin-submit": "ارسال",
 	"legallogin-close": "بستن",
 	"legallogin-yes": "بله",
-	"legallogin-no": "خیر"
+	"legallogin-no": "خیر",
+	"legallogin-question-apirequest-label": "به این سؤال پاسخ دهید: $1"
 }
