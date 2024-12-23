@@ -7,9 +7,16 @@
 			"Zabe"
 		]
 	},
+	"legallogin-policy-checkbox-label": "Ich habe die $1 gelesen und akzeptiere sie.",
+	"legallogin-policy-text-caption": "(Vrtsion $1; $2)",
 	"legallogin-true-answer-label": "Wahr",
 	"legallogin-false-answer-label": "Falsch",
+	"legallogin-policy-must-be-accepted": "Für den angeforderten Vorgang musst du die Richtlinie „$1“ akzeptieren.",
 	"legallogin-incorrect-answer-on-question": "Deine Antwort auf die Frage ‚$1‘ ist falsch",
+	"legallogin-logentry-policy": "$1 ID: $2, erforderlich: $3, gescrollt: $4, geöffnet: $5, akzeptiert: $6",
+	"legallogin-logentry-login": "$1 ID: $2, geöffnet: $3",
+	"legallogin-logentry-question": "$1 Antwort: $2",
+	"legallogin-complete-checkboxes": "Fülle die Kontrollkästchen korrekt aus, um fortzufahren",
 	"legallogin-submit": "Senden",
 	"legallogin-close": "Schließen",
 	"legallogin-yes": "Ja",
