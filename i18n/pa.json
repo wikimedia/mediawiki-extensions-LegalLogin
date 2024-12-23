@@ -4,5 +4,6 @@
 			"Cabal"
 		]
 	},
+	"legallogin-policy-apirequest-label": "ਮੈਂ ' $1 ' ਨੀਤੀ ਨੂੰ ਪੜ੍ਹ ਲਿਆ ਹੈ ਅਤੇ ਸਵੀਕਾਰ ਕਰਦਾ ਹਾਂ",
 	"legallogin-question-apirequest-label": "ਇਸ ਸਵਾਲ ਦਾ ਜਵਾਬ ਦਿਓ: $1"
 }
