@@ -5,5 +5,7 @@
 		]
 	},
 	"legallogin-policy-apirequest-label": "ਮੈਂ ' $1 ' ਨੀਤੀ ਨੂੰ ਪੜ੍ਹ ਲਿਆ ਹੈ ਅਤੇ ਸਵੀਕਾਰ ਕਰਦਾ ਹਾਂ",
-	"legallogin-question-apirequest-label": "ਇਸ ਸਵਾਲ ਦਾ ਜਵਾਬ ਦਿਓ: $1"
+	"legallogin-policy-apirequest-help": "ਡੱਬੇ ਉੱਤੇ ਨਿਸ਼ਾਨ ਲਾਓ ਕਿ ਤੁਸੀਂ ਸ਼ਰਤਾਂ ਨੂੰ ਮੰਜੂਰ ਕਰ ਲਿਆ ਏ",
+	"legallogin-question-apirequest-label": "ਇਸ ਸਵਾਲ ਦਾ ਜਵਾਬ ਦਿਓ: $1",
+	"legallogin-question-apirequest-help": "ਦਾਖ਼ਲ ਹੋਣ ਲਈ ਤੁਹਾਨੂੰ ਸੁਰੱਖਿਆ ਸਵਾਲ ਦਾ ਸਹੀ ਜਵਾਬ ਦੇਣਾ ਚਾਹੀਦਾ ਹੈ"
 }
