@@ -3,6 +3,7 @@
 		"authors": [
 			"Amire80",
 			"Hamilton Abreu",
+			"Matma Rex",
 			"Robby",
 			"Umherirrender",
 			"Veikk0.ma"
@@ -38,8 +39,8 @@
 	"legallogin-policy-apirequest-help": "Help text for a LegalLogin policy checkbox field in the authmanagerinfo API.",
 	"legallogin-question-apirequest-label": "Text shown to describe a LegalLogin security question field in the authmanagerinfo API.\n\nParameters: $1 - Question text",
 	"legallogin-question-apirequest-help": "Help text for a a LegalLogin security question field in the authmanagerinfo API.",
-	"logentry-legallogin-accept": "{{logentry}}\nMessage about accepted LegalLogin polices in Special:Log\n\nParameters:\n* $4 - number of accepted policies\n* $5 - information about accepted policies\n* $6 - number of answered questions\n* $7 - information about answered questions\n* $8 - number of user logins since last acceptance\n* $9 - date of last login of the user\n* $10 - link to the git repo of the LegalLogin extension",
-	"logentry-legallogin-login": "{{logentry}}\nMessage about opened LegalLogin polices in Special:Log\n\nParameters:\n* $4 - information about opened LegalLogin polices\n* $5 - number of login since last acceptance\n* $6 - datetime of the message\n* $7 - was acceptance required or not\n* $8 - link to the git repo of the LegalLogin extension",
+	"logentry-legallogin-accept": "Message about accepted LegalLogin policies in Special:Log.\n\n{{logentry}}\nAdditional parameters:\n* $4 - number of accepted policies\n* $5 - information about accepted policies\n* $6 - number of answered questions\n* $7 - information about answered questions\n* $8 - number of user logins since last acceptance\n* $9 - date of last login of the user\n* $10 - link to the git repo of the LegalLogin extension",
+	"logentry-legallogin-login": "Message about opened LegalLogin polices in Special:Log.\n\n{{logentry}}\nAdditional parameters:\n* $4 - information about opened LegalLogin polices\n* $5 - number of login since last acceptance\n* $6 - datetime of the message\n* $7 - was acceptance required or not\n* $8 - link to the git repo of the LegalLogin extension",
 	"right-legallogin-view-log": "{{doc-right|legallogin-view-log}}",
 	"action-legallogin-view-log": "{{doc-action|legallogin-view-log}}",
 	"right-legallogin-bypass": "{{doc-right|legallogin-bypass}}",
