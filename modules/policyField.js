@@ -1,8 +1,8 @@
 ( function () {
 	'use strict';
 
-	$( function () {
-		var $policyCheckboxes = $( '.legal-login-field > div.mw-ui-checkbox input[type=checkbox]' ),
+	$( () => {
+		let $policyCheckboxes = $( '.legal-login-field > div.mw-ui-checkbox input[type=checkbox]' ),
 			policyCheckboxesChecked = false,
 			$questionsRadio = $( '.legal-login-field input[type=radio]' ),
 			$questionElements = $( '.legallogin-policy-question' ),
@@ -23,7 +23,7 @@
 		}
 
 		$( 'a.legallogin-fpv-link' ).on( 'click', function () {
-			var $element = $( this ),
+			let $element = $( this ),
 				id = $element.attr( 'data-mw-ll-text-id' ),
 				$textarea = $( '#' + id ),
 				policyHtml = $textarea.html(),
@@ -43,7 +43,7 @@
 				]
 			} ) );
 
-			messageWindow.opened.then( function () {
+			messageWindow.opened.then( () => {
 				$( '#' + id + '-opened' ).val( true );
 				$( '#' + id + '-checkbox' ).prop( 'disabled', false );
 			} );

@@ -1,9 +1,9 @@
 ( function () {
 	'use strict';
 
-	$( function () {
+	$( () => {
 		$( 'a.legallogin-fpv-link' ).on( 'click', function () {
-			var $element = $( this ),
+			let $element = $( this ),
 				id = $element.attr( 'data-mw-ll-id' ),
 				// We prefix this with data-mw to ensure that the MW
 				// parser will never output an element with that attribute.
@@ -24,7 +24,7 @@
 				]
 			} ) );
 
-			messageWindow.opened.then( function () {
+			messageWindow.opened.then( () => {
 				$( '#' + id + '-opened' ).val( true );
 			} );
 		} );
