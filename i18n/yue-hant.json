@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Winston Sung"
+			"Winston Sung",
+			"Yueman"
 		]
 	},
+	"legallogin-submit": "遞交",
 	"legallogin-close": "閂"
 }
