@@ -1,8 +1,8 @@
 <?php
 namespace LegalLogin;
 
-use Html;
 use HTMLFormField;
+use MediaWiki\Html\Html;
 
 class PolicyLinks extends HTMLFormField {
 

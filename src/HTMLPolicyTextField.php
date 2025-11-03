@@ -1,14 +1,14 @@
 <?php
 namespace LegalLogin;
 
-use Html;
 use HTMLFormField;
 use HTMLHiddenField;
+use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Title\Title;
 use MWException;
 use MWTimestamp;
 use ParserOutput;
-use Title;
 
 class HTMLPolicyTextField extends HTMLFormField {
 

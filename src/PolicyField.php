@@ -1,9 +1,9 @@
 <?php
 namespace LegalLogin;
 
-use Html;
 use HTMLCheckField;
 use HTMLFormField;
+use MediaWiki\Html\Html;
 
 class PolicyField extends HTMLFormField {
 	public const POLICY_FIELD_NAME_PREFIX = 'wpLegalLoginField-policy-';
@@ -98,7 +98,7 @@ class PolicyField extends HTMLFormField {
 		if ( !$fieldsHtml ) {
 			return '';
 		}
-		$fieldsHtml .= HTML::element(
+		$fieldsHtml .= Html::element(
 			'label',
 			[ 'id' => 'wpLegalLoginFieldEnableJS' ],
 			$this->msg( 'legallogin-js-should-be-enabled' )->text()

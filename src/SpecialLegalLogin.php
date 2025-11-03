@@ -1,6 +1,7 @@
 <?php
 
 use LegalLogin\PolicyData;
+use MediaWiki\Title\Title;
 
 class SpecialLegalLogin extends FormSpecialPage {
 	/**

@@ -1,9 +1,9 @@
 <?php
 namespace LegalLogin;
 
-use Html;
 use HTMLFormField;
 use HTMLHiddenField;
+use MediaWiki\Html\Html;
 use MWException;
 use MWTimestamp;
 

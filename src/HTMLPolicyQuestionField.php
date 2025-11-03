@@ -1,9 +1,9 @@
 <?php
 namespace LegalLogin;
 
-use Html;
 use HTMLHiddenField;
 use HTMLRadioField;
+use MediaWiki\Html\Html;
 
 class HTMLPolicyQuestionField extends HTMLRadioField {
 
