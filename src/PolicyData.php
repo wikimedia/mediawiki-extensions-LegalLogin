@@ -100,7 +100,7 @@ class PolicyData {
 	 */
 	private static function getCache( ...$components ) {
 		$cache = ObjectCache::getLocalClusterInstance();
-		$params = func_get_args();
+		$params = $components;
 		array_unshift( $params, 'LegalLogin' );
 		$key = call_user_func_array( [ $cache, 'makeKey' ], $params );
 		return [ $cache, $key ];
