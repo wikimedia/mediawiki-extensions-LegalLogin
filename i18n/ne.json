@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"बडा काजी"
+		]
+	},
+	"legallogin-policy-checkbox-label": "मैले $1 पढेको छु र स्वीकार गरेको छु।",
+	"legallogin-policy-text-caption": "(संशोधन $1; $2)",
+	"legallogin-true-answer-label": "सत्य",
+	"legallogin-false-answer-label": "असत्य",
+	"legallogin-submit": "पेस गर्नुहोस्",
+	"legallogin-close": "बन्द गर्नुहोस्",
+	"legallogin-yes": "हो",
+	"legallogin-no": "होइन"
+}
