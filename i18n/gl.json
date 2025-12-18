@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"log-name-legallogin": "Inicio de sesión legal",
+	"log-description-legallogin": "Este é un rexistro das políticas de inicio de sesión legal aceptadas e as preguntas respondidas.",
+	"legallogin": "Inicio de sesión legal",
+	"legallogin-desc": "Esta extensión necesita a aceptación das políticas legais e unha resposta correcta ás preguntas da proba durante a creación da conta e o inicio de sesión",
+	"legallogin-policy-checkbox-label": "Lin e acepto as $1",
+	"legallogin-policy-text-caption": "(Revisión $1; $2)",
+	"legallogin-policy-full-page-view": "Fai clic aquí para ler en vista de páxina completa",
+	"legallogin-true-answer-label": "Verdadeiro",
+	"legallogin-false-answer-label": "Falso",
+	"legallogin-extra-fields-required-for-account-creation": "Campos adicionais de inicio de sesión legal obrigatorios para a creación de contas",
+	"legallogin-extra-fields-were-changed": "Modificáronse os campos de inicio de sesión legal",
+	"legallogin-policy-must-be-read": "Debes leer as políticas «$1» antes de aceptar",
+	"legallogin-policy-must-be-accepted": "Para a operación solicitada debes aceptar as políticas «$1»",
+	"legallogin-incorrect-answer-on-question": "A túa resposta á pregunta «$1» é incorrecta",
+	"legallogin-logentry-policy": "$1 identificador: $2, obrigatoria: $3, deslizada: $4, aberta: $5, aceptada: $6",
+	"legallogin-logentry-login": "$1 identificador: $2, aberta: $3",
+	"legallogin-logentry-question": "$1 resposta: $2",
+	"legallogin-complete-checkboxes": "Enche correctamente as caixas para continuar",
+	"legallogin-submit": "Enviar",
+	"legallogin-close": "Pechar",
+	"legallogin-yes": "Si",
+	"legallogin-no": "Non",
+	"legallogin-js-should-be-enabled": "O sitio web necesita que o JavaScript estea activado",
+	"legallogin-policies-must-be-accepted": "Debes aceptar as políticas de inicio de sesión legal",
+	"legallogin-policy-apirequest-label": "Lin e acepto as políticas «$1»",
+	"legallogin-policy-apirequest-help": "Caixa de verificación que indica que aceptaches os termos",
+	"legallogin-question-apirequest-label": "Responde esta pregunta: $1",
+	"legallogin-question-apirequest-help": "Pregunta de seguridade que debes responder correctamente para o inicio de sesión",
+	"logentry-legallogin-accept": "{{GENDER:$2|O usuario|A usuaria}} $1 aceptou {{PLURAL:$4|a política|as políticas}} $5 e respondeu {{PLURAL:$6|a pregunta|as preguntas}} $7. {{GENDER:$2|O usuario|A usuaria}} iniciou sesión {{PLURAL:$8|unha vez|$8 veces}} desde a última aceptación. O último inicio de sesión foi o $9. $10.",
+	"logentry-legallogin-login": "{{GENDER:$2|O usuario|A usuaria}} $1 iniciou sesión {{PLURAL:$5|unha vez|$5 veces}} desde a última aceptación, cando se solicitou o $6: $7. $4. $8.",
+	"right-legallogin-view-log": "Ver as políticas de inicio de sesión legal aceptadas",
+	"action-legallogin-view-log": "ver as políticas de inicio de sesión legal aceptadas",
+	"right-legallogin-bypass": "Omitir a verificación para aqueles grupos aos que se lles permite omitila",
+	"action-legallogin-bypass": "omitir a verificación para aqueles grupos aos que se lles permite omitila"
+}
