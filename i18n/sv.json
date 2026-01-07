@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sabelöga"
+			"Sabelöga",
+			"Stefan2255"
 		]
 	},
 	"log-name-legallogin": "Laglig inloggning",
 	"log-description-legallogin": "Detta är en logg över godkända policyer över lagliga inloggningar och besvarade frågor.",
 	"legallogin": "Laglig inloggning",
-	"legallogin-desc": "Det här tillägget kräver att användare godkänner efter att ha klickat på en extern länk, för att skickas till den externa länken.",
+	"legallogin-desc": "Denna tillägg kräver godkännande av juridiska policyer och korrekt svar på testfrågor vid skapandet av ett konto och inloggning.",
 	"legallogin-policy-checkbox-label": "Jag har läst och godkänner $1",
 	"legallogin-policy-text-caption": "(sidversion $1; $2)",
 	"legallogin-policy-full-page-view": "Klicka här för att läsa i hel sida",
@@ -28,8 +29,14 @@
 	"legallogin-no": "Nej",
 	"legallogin-js-should-be-enabled": "Webbplatsen kräver JavaScript för att aktiveras",
 	"legallogin-policies-must-be-accepted": "Du borde godkänna laglig inloggnings policyer",
-	"logentry-legallogin-accept": "Användaren $1 accepterade {{PLURAL:$4|policyn|policyerna}} $5 och besvarade $7 {{PLURAL:$6|frågan|frågorna}}. Användaren har loggat in $8 {{PLURAL:$8|gång|gånger}} sedan det senaste godkännandet, senaste inloggningen skedde $9. $10.",
-	"logentry-legallogin-login": "Användaren $1 loggade in $5 {{PLURAL:$5|gång|gånger}} sedan senaste godkännandet, vid $6 krävdes godkännande: $7. $4. $8.",
+	"legallogin-policy-apirequest-label": "Jag har läst och accepterar '$1'-policyn",
+	"legallogin-policy-apirequest-help": "Kryssruta för att du har accepterat villkoren",
+	"legallogin-question-apirequest-label": "Svara på denna fråga: $1",
+	"legallogin-question-apirequest-help": "Säkerhetsfråga som du måste svara korrekt på för att logga in",
+	"logentry-legallogin-accept": "{{GENDER:$2|Användaren}} $1 accepterade {{PLURAL:$4|policyn|policyerna}} $5 och besvarade $7 {{PLURAL:$6|frågan|frågorna}}. {{GENDER:$2|Användaren}} har loggat in $8 {{PLURAL:$8|gång|gånger}} sedan det senaste godkännandet, senaste inloggningen skedde $9. $10.",
+	"logentry-legallogin-login": "{{GENDER:$2|Användaren}} $1 loggade in $5 {{PLURAL:$5|gång|gånger}} sedan senaste godkännandet, vid $6 krävdes godkännande: $7. $4. $8.",
 	"right-legallogin-view-log": "Visa de godkända laglig inloggning-policyerna",
-	"action-legallogin-view-log": "visa de godkända laglig inloggning-policyerna"
+	"action-legallogin-view-log": "visa de godkända laglig inloggning-policyerna",
+	"right-legallogin-bypass": "Kringgå kontrollen för grupper som tillåts kringgå",
+	"action-legallogin-bypass": "kringgå kontrollen för grupper som tillåts kringgå"
 }
