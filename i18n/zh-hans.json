@@ -2,10 +2,20 @@
 	"@metadata": {
 		"authors": [
 			")8",
-			"沈澄心"
+			"沈澄心",
+			"Peterxy12"
 		]
 	},
 	"log-name-legallogin": "Legal Login",
+	"log-description-legallogin": "这是已接受的Legal Login方针与已回答过问题的日志。",
+	"legallogin": "LegalLogin",
+	"legallogin-desc": "此扩展需要在创建账号和登录过程中接受合法方针并正确回答测试问题",
+	"legallogin-policy-checkbox-label": "我已阅读并接受$1。",
+	"legallogin-policy-text-caption": "（修订$1；$2）",
+	"legallogin-policy-full-page-view": "点击此处以全页模式阅读",
+	"legallogin-true-answer-label": "真",
+	"legallogin-false-answer-label": "假",
+	"legallogin-extra-fields-required-for-account-creation": "创建账号所需的Legal Login额外字段",
 	"legallogin-submit": "提交",
 	"legallogin-close": "关闭",
 	"legallogin-yes": "是",
