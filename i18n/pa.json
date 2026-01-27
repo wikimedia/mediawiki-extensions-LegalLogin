@@ -3,5 +3,12 @@
 		"authors": [
 			"Cabal"
 		]
-	}
+	},
+	"legallogin-true-answer-label": "ਸੱਚ",
+	"legallogin-false-answer-label": "ਝੂਠ",
+	"legallogin-logentry-question": "$1 ਦਾ ਜਵਾਬ: $2",
+	"legallogin-submit": "ਹਵਾਲੇ ਕਰੋ",
+	"legallogin-close": "ਬੰਦ ਕਰੋ",
+	"legallogin-yes": "ਹਾਂ",
+	"legallogin-no": "ਨਹੀਂ"
 }
