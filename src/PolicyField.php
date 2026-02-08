@@ -1,9 +1,9 @@
 <?php
 namespace LegalLogin;
 
-use Html;
 use HTMLCheckField;
 use HTMLFormField;
+use MediaWiki\Html\Html;
 
 class PolicyField extends HTMLFormField {
 	public const POLICY_FIELD_NAME_PREFIX = 'wpLegalLoginField-policy-';
@@ -87,7 +87,11 @@ class PolicyField extends HTMLFormField {
 		foreach ( $policyCheckboxes as $ch ) {
 			/** @var HTMLCheckField $checkbox */
 			[ $checkbox, $checkboxValue ] = $ch;
-			$fieldsHtml .= $checkbox->getInputHTML( $checkboxValue );
+			$fieldsHtml .= Html::rawElement(
+				'div',
+				[ 'class' => 'legal-login-checkbox-row' ],
+				$checkbox->getInputHTML( $checkboxValue )
+			);
 		}
 		foreach ( $questionFields as $qf ) {
 			/** @var HTMLPolicyQuestionField $checkbox */
