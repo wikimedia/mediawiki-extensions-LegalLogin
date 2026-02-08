@@ -29,13 +29,26 @@ class PolicyLinksAuthenticationRequest extends AuthenticationRequest {
 	 * @return array[]
 	 */
 	public function getFieldInfo() {
-		return [
-			'LegalLoginPolicyLinks' => [
-				'type' => 'null',
-				'class' => PolicyLinks::class,
-				'fieldsData' => PolicyData::getFormFieldsData(),
-			]
-		];
+		$fieldsData = PolicyData::getFormFieldsData();
+		$fieldInfo = [];
+		foreach ( $fieldsData as $field ) {
+			if ( $field['type'] === 'policy' ) {
+				$fieldInfo[ $field['name'] ] = [
+					'type' => 'checkbox',
+					'label' => wfMessage( 'legallogin-policy-apirequest-label', $field['caption'] ),
+					'required' => AuthenticationRequest::REQUIRED,
+					'help' => wfMessage( 'legallogin-policy-apirequest-help' ),
+				];
+			} elseif ( $field['type'] === 'question' ) {
+				$fieldInfo[ $field['name'] ] = [
+					'type' => 'string',
+					'label' => wfMessage( 'legallogin-question-apirequest-label', $field['text'] ),
+					'required' => AuthenticationRequest::REQUIRED,
+					'help' => wfMessage( 'legallogin-policy-apirequest-help' ),
+				];
+			}
+		}
+		return $fieldInfo;
 	}
 
 	/**

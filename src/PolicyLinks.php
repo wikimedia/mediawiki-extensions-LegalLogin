@@ -1,8 +1,8 @@
 <?php
 namespace LegalLogin;
 
-use Html;
 use HTMLFormField;
+use MediaWiki\Html\Html;
 
 class PolicyLinks extends HTMLFormField {
 
@@ -21,6 +21,9 @@ class PolicyLinks extends HTMLFormField {
 					'fieldname' => $policyFieldName,
 					'parent' => $this->mParent
 				];
+				if ( $this->mName !== null && $this->mName !== '' ) {
+					$params['namePrefix'] = $this->mName;
+				}
 				$pfElement = new HTMLPolicyLinkField( $params );
 				$name = $pfElement->mName;
 				$postedPolicyRevId = $value["$name-policyRevId"] ?? null;
@@ -66,6 +69,9 @@ class PolicyLinks extends HTMLFormField {
 	 * @inheritDoc
 	 */
 	public function loadDataFromRequest( $request ) {
+		if ( $this->mName !== null && $this->mName !== '' ) {
+			return $request->getArray( $this->mName ) ?? [];
+		}
 		$return = [];
 		foreach ( $request->getValueNames() as $name ) {
 			if ( strncmp( 'wpLegalLoginField-', $name, 18 ) !== 0 ) {

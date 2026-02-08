@@ -1,6 +1,7 @@
 <?php
 
 use LegalLogin\PolicyData;
+use MediaWiki\Title\Title;
 
 class SpecialLegalLogin extends FormSpecialPage {
 	/**
@@ -12,11 +13,7 @@ class SpecialLegalLogin extends FormSpecialPage {
 	 * @inheritDoc
 	 */
 	public function __construct() {
-		global $wgUseMediaWikiUIEverywhere;
 		parent::__construct( 'LegalLogin' );
-
-		// Override UseMediaWikiEverywhere to true, to force the form to use mw ui
-		$wgUseMediaWikiUIEverywhere = true;
 	}
 
 	/**
@@ -57,7 +54,7 @@ class SpecialLegalLogin extends FormSpecialPage {
 	 * @inheritDoc
 	 */
 	protected function getDisplayFormat() {
-		return 'vform';
+		return 'ooui';
 	}
 
 	/**
