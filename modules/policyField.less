@@ -1,6 +1,13 @@
 @margin: 15px;
+@row-gap: 0.5em;
 
 .legal-login-field {
+	/* Each element on its own line */
+	> * {
+		display: block;
+		margin-bottom: @row-gap;
+	}
+
 	.legallogin-policy-text-caption {
 		margin-top: @margin;
 
@@ -11,6 +18,14 @@
 
 		> a {
 			white-space: nowrap;
+		}
+	}
+
+	/* Checkbox row: keep box and label on same line */
+	.legal-login-checkbox-row {
+		input[ type='checkbox' ],
+		label {
+			vertical-align: middle;
 		}
 	}
 
@@ -26,10 +41,6 @@
 		width: 600px;
 	}
 }
-
-//.legallogin-policy-fullscreen-text {
-//	white-space: pre-wrap;
-//}
 
 #wpLegalLoginFieldEnableJS {
 	display: block;

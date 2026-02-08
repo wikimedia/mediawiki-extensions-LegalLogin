@@ -1,11 +1,11 @@
 <?php
 namespace LegalLogin;
 
-use Html;
 use LogFormatter;
+use MediaWiki\Html\Html;
+use MediaWiki\Title\Title;
 use Message;
 use MWTimestamp;
-use Title;
 
 /**
  * LogFormatter for legallogin/accept logs

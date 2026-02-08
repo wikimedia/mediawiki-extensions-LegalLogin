@@ -41,7 +41,7 @@ class PolicyLinksAuthenticationRequest extends AuthenticationRequest {
 				];
 			} elseif ( $field['type'] === 'question' ) {
 				$fieldInfo[ $field['name'] ] = [
-					'type' => 'text',
+					'type' => 'string',
 					'label' => wfMessage( 'legallogin-question-apirequest-label', $field['text'] ),
 					'required' => AuthenticationRequest::REQUIRED,
 					'help' => wfMessage( 'legallogin-policy-apirequest-help' ),
