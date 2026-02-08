@@ -16,7 +16,7 @@ class HTMLPolicyLinkField extends HTMLFormField {
 	public function getInputHTML( $value ) {
 		$ts = $value['timestamp'];
 		$revDate = MWTimestamp::getInstance( $ts )->format( 'Y-m-d' );
-		$fpvText = $this->msg( 'legallogin-policy-text-caption', $value['policyId'], $revDate );
+		$fpvText = $this->msg( 'legallogin-policy-text-caption', $value['policyId'], $revDate )->text();
 		$link = Html::element(
 			'a',
 			[
@@ -44,9 +44,14 @@ class HTMLPolicyLinkField extends HTMLFormField {
 	 * @throws MWException
 	 */
 	private function makeHiddenField( string $namePostfix, $value ) {
+		if ( isset( $this->mParams['namePrefix'] ) ) {
+			$fullName = $this->mParams['namePrefix'] . '[' . $this->mParams['name'] . '-' . $namePostfix . ']';
+		} else {
+			$fullName = $this->mParams['name'] . '-' . $namePostfix;
+		}
 		$params = [
-			'name' => $this->mParams['name'] . '-' . $namePostfix,
-			'fieldname' => $this->mParams['name'] . '-' . $namePostfix,
+			'name' => $fullName,
+			'fieldname' => $fullName,
 			'default' => $value,
 			'parent' => $this->mParent
 		];

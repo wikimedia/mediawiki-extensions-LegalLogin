@@ -48,6 +48,8 @@ class HTMLPolicyTextField extends HTMLFormField {
 	}
 
 	/**
+	 * Parse wikitext (e.g. message content) to HTML for display in the policy field.
+	 *
 	 * @param string $string
 	 * @param Title|null $title
 	 * @return ParserOutput|string
@@ -61,14 +63,7 @@ class HTMLPolicyTextField extends HTMLFormField {
 		);
 
 		return $out instanceof ParserOutput
-			? $out->getText( [
-				'enableSectionEditLinks' => false,
-				// Wrapping messages in an extra <div> is probably not expected. If
-				// they're outside the content area they probably shouldn't be
-				// targeted by CSS that's targeting the parser output, and if
-				// they're inside they already are from the outer div.
-				'unwrap' => true,
-			] )
+			? $out->getContentHolderText()
 			: $out;
 	}
 

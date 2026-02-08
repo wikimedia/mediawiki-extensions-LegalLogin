@@ -2,6 +2,7 @@
 
 use LegalLogin\ExtraFieldsAuthenticationRequest;
 use LegalLogin\PolicyData;
+use LegalLogin\PolicyLinks;
 use LegalLogin\PolicyLinksAuthenticationRequest;
 use MediaWiki\Auth\AuthenticationRequest;
 use MediaWiki\Auth\AuthManager;
@@ -153,7 +154,16 @@ class LegalLoginHooks {
 		if ( $action === AuthManager::ACTION_LOGIN ) {
 			$req = AuthenticationRequest::getRequestByClass( $requests, PolicyLinksAuthenticationRequest::class );
 			if ( $req ) {
-				$formDescriptor['LegalLoginPolicyLinks'] = $fieldInfo['LegalLoginPolicyLinks'];
+				// Replace per-field descriptors (from getFieldInfo()) with one composite field.
+				// fieldInfo keys are the actual field names (e.g. LegalLoginTestPolicy), not "LegalLoginPolicyLinks".
+				foreach ( array_keys( $req->getFieldInfo() ) as $fieldName ) {
+					unset( $formDescriptor[$fieldName] );
+				}
+				$formDescriptor['LegalLoginPolicyLinks'] = [
+					'class' => PolicyLinks::class,
+					'fieldsData' => PolicyData::getFormFieldsData(),
+					'name' => 'LegalLoginPolicyLinks',
+				];
 			}
 			return;
 		}
