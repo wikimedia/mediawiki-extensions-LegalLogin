@@ -228,14 +228,19 @@ class PolicyData {
 			$csv[] = "policy name: {$value['name']}";
 			$csv[] = "id: {$value['policyId']}";
 			$csv[] = "revId: {$value['revId']}";
+			// @phan-suppress-next-line PhanTypeMismatchDimAssignment
 			$csv[] = 'opened: ' . ( $value['opened'] ? 'Yes' : 'No' );
+			// @phan-suppress-next-line PhanTypeMismatchDimAssignment
 			$csv[] = 'scrolled: ' . ( $value['scrolled'] ? 'Yes' : 'No' );
+			// @phan-suppress-next-line PhanTypeMismatchDimAssignment
 			$csv[] = 'required: ' . ( $value['required'] ? 'Yes' : 'No' );
+			// @phan-suppress-next-line PhanTypeMismatchDimAssignment
 			$csv[] = 'accepted: ' . ( $value['accepted'] ? 'Yes' : 'No' );
 		}
 		foreach ( $param['5::questions'] ?? [] as $value ) {
 			$csv[] = "question name: {$value['name']}";
 			$csv[] = "revId: {$value['revId']}";
+			// @phan-suppress-next-line PhanTypeMismatchDimAssignment
 			$csv[] = 'answer: ' . ( $value['answer'] ? 'True' : 'False' );
 		}
 		$csv[] = "logged timestamp: {$param['7:logged']['timestamp']}";
