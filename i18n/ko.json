@@ -1,22 +1,42 @@
 {
 	"@metadata": {
 		"authors": [
+			"Tensama0415",
 			"Ykhwong"
 		]
 	},
+	"log-name-legallogin": "합법적 로그인",
+	"log-description-legallogin": "이것은 합법적 로그인 정책과 답변된 질문들의 로그입니다.",
+	"legallogin": "합법적 로그인",
+	"legallogin-desc": "이 확장 기능은 법적 정책에 동의하고 테스트 질문에 정답을 맞춰야만 계정 생성 및 로그인이 가능하도록 합니다",
 	"legallogin-policy-checkbox-label": "저는 $1을(를) 읽었으며 동의합니다",
 	"legallogin-policy-text-caption": "(판 $1; $2)",
 	"legallogin-policy-full-page-view": "전체 페이지 보기로 읽으려면 여기를 클릭하십시오",
 	"legallogin-true-answer-label": "참",
 	"legallogin-false-answer-label": "거짓",
+	"legallogin-extra-fields-required-for-account-creation": "계정을 생성하려면 추가적인 합법적 로그인 필드가 필요합니다",
+	"legallogin-extra-fields-were-changed": "합법적 로그인 필드가 변경되었습니다",
 	"legallogin-policy-must-be-read": "수락하기 전에 '$1' 정책을 읽어야 합니다",
+	"legallogin-policy-must-be-accepted": "요청하신 작업을 수행하려면 '$1' 정책에 동의하셔야 합니다",
 	"legallogin-incorrect-answer-on-question": "'$1' 질문의 답변이 잘못되었습니다",
+	"legallogin-logentry-policy": "$1 id: $2, 필수: $3, 스크롤함: $4, 열어봄: $5, 승인함: $6",
+	"legallogin-logentry-login": "$1 id: $2, 열어봄: $3",
+	"legallogin-logentry-question": "$1 답변: $2",
+	"legallogin-complete-checkboxes": "계속하려면 체크박스를 정확하게 완료하세요",
 	"legallogin-submit": "제출",
 	"legallogin-close": "닫기",
 	"legallogin-yes": "예",
 	"legallogin-no": "아니오",
 	"legallogin-js-should-be-enabled": "사이트에서 자바스크립트 활성화는 필수입니다",
+	"legallogin-policies-must-be-accepted": "합법적 로그인 정책에 승인해야 합니다",
 	"legallogin-policy-apirequest-label": "'$1' 정책을 읽었고 동의합니다",
+	"legallogin-policy-apirequest-help": "약관에 동의했다는 것을 확인하는 체크박스",
 	"legallogin-question-apirequest-label": "이 질문에 답하세요: $1",
-	"legallogin-question-apirequest-help": "로그인하려면 올바르게 답해야 하는 보안 질문"
+	"legallogin-question-apirequest-help": "로그인하려면 올바르게 답해야 하는 보안 질문",
+	"logentry-legallogin-accept": "{{GENDER:$2|사용자}} $1님이 {{PLURAL:$4|정책}} $5에 동의하고 {{PLURAL:$6|질문}} $7에 답변했습니다. {{GENDER:$2|사용자}}는 마지막 동의 이후 $8{{PLURAL:$8|번}} 로그인했으며, 마지막 로그인은 $9 이었습니다. $10.",
+	"logentry-legallogin-login": "{{GENDER:$2|사용자}} $1님이 마지막 승인 이후 $5{{PLURAL:$5|번}} 로그인했으며, $6에 승인이 요구되었습니다. $7. $4. $8.",
+	"right-legallogin-view-log": "동의된 합법적 로그인 정책을 확인",
+	"action-legallogin-view-log": "동의된 합법적 로그인 정책을 확인할",
+	"right-legallogin-bypass": "우회가 허용된 그룹에 있어서 검사를 우회함",
+	"action-legallogin-bypass": "우회가 허용된 그룹에 있어서 검사를 우회할"
 }
