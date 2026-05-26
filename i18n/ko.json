@@ -32,7 +32,7 @@
 	"logentry-legallogin-accept": "{{GENDER:$2|사용자}} $1님이 {{PLURAL:$4|정책}} $5에 동의하고 {{PLURAL:$6|질문}} $7에 답변했습니다. {{GENDER:$2|사용자}}는 마지막 동의 이후 $8{{PLURAL:$8|번}} 로그인했으며, 마지막 로그인은 $9 이었습니다. $10.",
 	"logentry-legallogin-login": "{{GENDER:$2|사용자}} $1님이 마지막 승인 이후 $5{{PLURAL:$5|번}} 로그인했으며, $6에 승인이 요구되었습니다. $7. $4. $8.",
 	"right-legallogin-view-log": "동의된 합법적 로그인 정책을 확인",
-	"action-legallogin-view-log": "동의된 합법적 로그인 정책을 확인할",
-	"right-legallogin-bypass": "우회가 허용된 그룹에 있어서 검사를 우회함",
-	"action-legallogin-bypass": "우회가 허용된 그룹에 있어서 검사를 우회할"
+	"action-legallogin-view-log": "동의된 합법적 로그인 정책을 확인",
+	"right-legallogin-bypass": "우회가 허용된 그룹에 있어서 검사를 우회하기",
+	"action-legallogin-bypass": "우회가 허용된 그룹에 있어서 검사를 우회하기"
 }
