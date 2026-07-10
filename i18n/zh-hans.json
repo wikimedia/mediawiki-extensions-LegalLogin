@@ -4,7 +4,8 @@
 			")8",
 			"Peterxy12",
 			"沈澄心",
-			"Peterxy"
+			"Peterxy",
+			"GuoPC"
 		]
 	},
 	"log-name-legallogin": "Legal Login",
@@ -17,8 +18,28 @@
 	"legallogin-true-answer-label": "真",
 	"legallogin-false-answer-label": "假",
 	"legallogin-extra-fields-required-for-account-creation": "创建账号所需的Legal Login额外字段",
+	"legallogin-extra-fields-were-changed": "Legal Login字段已更改",
+	"legallogin-policy-must-be-read": "在接受之前您必须阅读“$1”方针",
+	"legallogin-policy-must-be-accepted": "对于请求的操作，您必须接受“$1”方针",
+	"legallogin-incorrect-answer-on-question": "您对问题“$1”的回答不正确",
+	"legallogin-logentry-policy": "$1 ID：$2，必需方针：$3，滚动方针至尾端：$4，全屏打开：$5，接受：$6",
+	"legallogin-logentry-login": "$1 ID：$2，打开方针：$3",
+	"legallogin-logentry-question": "$1回答：$2",
+	"legallogin-complete-checkboxes": "请正确勾选复选框以继续",
 	"legallogin-submit": "提交",
 	"legallogin-close": "关闭",
 	"legallogin-yes": "是",
-	"legallogin-no": "否"
+	"legallogin-no": "否",
+	"legallogin-js-should-be-enabled": "网站需要启用JavaScript",
+	"legallogin-policies-must-be-accepted": "您需接受Legal Login方针",
+	"legallogin-policy-apirequest-label": "我已阅读并接受“$1”方针",
+	"legallogin-policy-apirequest-help": "勾选此复选框表示您已接受条款",
+	"legallogin-question-apirequest-label": "回答这个问题：$1",
+	"legallogin-question-apirequest-help": "您必须正确回答安全问题才能登录",
+	"logentry-legallogin-accept": "{{GENDER:$2|用户}}$1已接受{{PLURAL:$4|方针}}$5，并回答了{{PLURAL:$6|问题}}$7。{{GENDER:$2|用户}}自上次接受方针以来已登录$8{{PLURAL:$8|次}}，上次登录时间为$9。$10。",
+	"logentry-legallogin-login": "{{GENDER:$2|用户}}$1自上次接受方针以来已登录$5{{PLURAL:$5|次}}，于$6需要接受：$7。$4。$8。",
+	"right-legallogin-view-log": "查看接受的Legal Login方针",
+	"action-legallogin-view-log": "查看接受的Legal Login方针",
+	"right-legallogin-bypass": "绕过允许绕过用户组的检查",
+	"action-legallogin-bypass": "绕过允许绕过用户组的检查"
 }
