@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"log-name-legallogin": "Gelitaan sharci ah",
+	"log-description-legallogin": "Tani waa diiwaanka siyaasadaha Gelitaanka sharci ah ee la aqbalay iyo su'aalaha laga jawaabay.",
+	"legallogin": "Gelitaanka sharci ah",
+	"legallogin-desc": "Kordhintani waxay u baahan tahay in la aqbalo siyaasadaha sharciga ah oo si sax ah looga jawaabo su'aalaha tijaabada ah inta lagu jiro abuurista akoonka iyo gelitaanka",
+	"legallogin-policy-checkbox-label": "Waan akhriyey oo waan aqbalay $1",
+	"legallogin-policy-text-caption": "(Dib u eegista $1; $2)",
+	"legallogin-policy-full-page-view": "Halkan guji si aad ugu akhrido muuqaalka bogga oo buuxa",
+	"legallogin-true-answer-label": "Run",
+	"legallogin-false-answer-label": "Been",
+	"legallogin-extra-fields-required-for-account-creation": "Goobaha dheeraadka ah ee Gelitaanka sharci ah ee looga baahan yahay abuurista akoonka",
+	"legallogin-extra-fields-were-changed": "Goobihii Gelitaanka sharci ah waa la beddelay",
+	"legallogin-policy-must-be-read": "Waa inaad akhrido siyaasadda '$1' ka hor intaadan aqbalin",
+	"legallogin-policy-must-be-accepted": "Hawlgalka la codsaday, waa inaad aqbashaa siyaasadda '$1'",
+	"legallogin-incorrect-answer-on-question": "Jawaabtaada su'aasha '$1' waa khalad",
+	"legallogin-logentry-policy": "$1 aqoonsi: $2, loo baahan yahay: $3, la rogrogay: $4, la furay: $5, la aqbalay: $6",
+	"legallogin-logentry-login": "$1 aqoonsi: $2, la furay: $3",
+	"legallogin-logentry-question": "$1 jawaab: $2",
+	"legallogin-complete-checkboxes": "Si sax ah u dhammaystir sanduuqyada calaamadaynta si aad u sii waddo",
+	"legallogin-submit": "Gudbi",
+	"legallogin-close": "Xir",
+	"legallogin-yes": "Haa",
+	"legallogin-no": "Maya",
+	"legallogin-js-should-be-enabled": "Goobtu waxay u baahan tahay in JavaScript la hawlgeliyo",
+	"legallogin-policies-must-be-accepted": "Waa inaad aqbashaa siyaasadaha Gelitaanka sharci ah",
+	"logentry-legallogin-accept": "{{GENDER:$2|Isticmaalaha}} $1 wuxuu aqbalay {{PLURAL:$4|siyaasadda|siyaasadaha}} $5 wuxuuna ka jawaabay {{PLURAL:$6|su'aasha|su'aalaha}} $7. {{GENDER:$2|Isticmaaluhu}} wuxuu galay $8 {{PLURAL:$8|jeer|jeero}} tan iyo markii ugu dambaysay ee la aqbalay, gelitaankii ugu dambeeyayna wuxuu ahaa $9. $10.",
+	"logentry-legallogin-login": "{{GENDER:$2|Isticmaalaha}} $1 wuxuu galay $5 {{PLURAL:$5|jeer|jeero}} tan iyo markii ugu dambaysay ee la aqbalay, markii $6 la aqbalay waxaa loo baahnaa: $7. $4. $8.",
+	"right-legallogin-view-log": "Eeg siyaasadaha Gelitaanka Sharciyeed ee la aqbalay",
+	"action-legallogin-view-log": "eeg siyaasadaha Gelitaanka Sharciyeed ee la aqbalay",
+	"right-legallogin-bypass": "Ka gudub hubinta kooxaha loo oggol yahay inay ka gudbaan",
+	"action-legallogin-bypass": "ka gudub hubinta kooxaha loo oggol yahay inay ka gudbaan"
+}
